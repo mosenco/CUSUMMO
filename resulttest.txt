@@ -1,6 +1,26 @@
-test video:0 accuracy:0.473970473970474 precision:0.0 recall:0.0 f1:0.0 
-test video:0 accuracy:0.473970473970474 precision:0.0 recall:0.0 f1:0.0 
-test video:0 accuracy:0.473970473970474 precision:0.0 recall:0.0 f1:0.0 
+
+test video:0 accuracy:1.0 precision:1.0 recall:1.0 f1:1.0 
 MEAN VALUES
-mean accuracy:0.1184926184926185 mean precision:0.0 mean recall:0.0 mean f1:0.0 
-test video:0 accuracy:0.473970473970474 precision:0.0 recall:0.0 f1:0.0 
+mean accuracy:0.25 mean precision:0.25 mean recall:0.25 mean f1:0.25 score:1.0 pen:20 
+test video:0 accuracy:1.0 precision:1.0 recall:1.0 f1:1.0 
+MEAN VALUES
+mean accuracy:0.25 mean precision:0.25 mean recall:0.25 mean f1:0.25 score:1.0 pen:20 
+test video:0 accuracy:1.0 precision:1.0 recall:1.0 f1:1.0 
+MEAN VALUES
+mean accuracy:0.25 mean precision:0.25 mean recall:0.25 mean f1:0.25 score:1.0 pen:20 
+test video:0 accuracy:1.0 precision:1.0 recall:1.0 f1:1.0 
+test video:0 accuracy:0.7007575757575758 precision:0.3482080924855491 recall:0.8518099547511312 f1:0.49433776464795665 
+MEAN VALUES
+mean accuracy:0.17518939393939395 mean precision:0.08705202312138728 mean recall:0.2129524886877828 mean f1:0.08705202312138728 score:0.49433776464795665 pen:40 
+test video:0 accuracy:0.7007575757575758 precision:0.3482080924855491 recall:0.8518099547511312 f1:0.49433776464795665 
+MEAN VALUES
+mean accuracy:0.17518939393939395 mean precision:0.08705202312138728 mean recall:0.2129524886877828 mean f1:0.08705202312138728 score:0.49433776464795665 pen:40 
+test video:0 accuracy:0.7007575757575758 precision:0.3482080924855491 recall:0.8518099547511312 f1:0.49433776464795665 
+MEAN VALUES
+mean accuracy:0.17518939393939395 mean precision:0.08705202312138728 mean recall:0.2129524886877828 mean f1:0.08705202312138728 score:0.49433776464795665 pen:40 
+test video:0 accuracy:0.844017094017094 precision:0.6068601583113457 recall:0.26018099547511314 f1:0.3642121931908155 
+MEAN VALUES
+mean accuracy:0.2110042735042735 mean precision:0.1517150395778364 mean recall:0.06504524886877829 mean f1:0.1517150395778364 score:0.49433776464795665 pen:40 
+test video:0 accuracy:0.769036519036519 precision:0.414469994391475 recall:0.8359728506787331 f1:0.5541807274090739 
+MEAN VALUES
+mean accuracy:0.19225912975912976 mean precision:0.10361749859786876 mean recall:0.20899321266968326 mean f1:0.10361749859786876 score:0.5541807274090739 pen:30 
