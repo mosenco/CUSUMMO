@@ -1,0 +1,3 @@
+model:CLASPk
+Timeseries:in\marianne24_input.txt accuracy:0.9936028310875187 precision:0.0 recall:0.0 f1:0.0 
+
