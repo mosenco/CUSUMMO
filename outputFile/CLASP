@@ -1,0 +1,135 @@
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9904032570763862 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9949827532141737 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.9942446043165467 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.9924204143506822 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.9948112363571301 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.9942229924898902 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.9936028310875187 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.9921742089145968 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.9923371647509579 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9980539699014012 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9976192430834907 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.9834437086092715 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.9967213114754099 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9969979986657772 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.9963114345528861 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9904032570763862 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9949827532141737 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.9942446043165467 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.9924204143506822 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.9948112363571301 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.9942229924898902 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.9936028310875187 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.9921742089145968 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.9923371647509579 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9980539699014012 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9976192430834907 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.9834437086092715 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.9967213114754099 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9969979986657772 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.9963114345528861 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9904032570763862 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9949827532141737 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.9942446043165467 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.9924204143506822 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.9948112363571301 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.9942229924898902 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.9936028310875187 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.9921742089145968 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.9923371647509579 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9980539699014012 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9976192430834907 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.9834437086092715 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.9967213114754099 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9969979986657772 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.9963114345528861 precision:0.0 recall:0.0 f1:0.0 
+
