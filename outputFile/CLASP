@@ -133,3 +133,48 @@ Timeseries:in\muriel26_input.txt accuracy:0.9969979986657772 precision:0.0 recal
 model:in\muriel27_input.txt
 Timeseries:in\muriel27_input.txt accuracy:0.9963114345528861 precision:0.0 recall:0.0 f1:0.0 
 
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9905001938735944 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9951395421762308 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.994484412470024 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.9926730672056594 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.994990159241367 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.9944155594068939 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.99373894106438 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.9925144607009186 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.9926564495530013 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9981837052413077 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9977013381495772 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.9838576158940397 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.9968774395003903 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9970647098065377 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.9964111255109162 precision:0.0 recall:0.0 f1:0.0 
+
