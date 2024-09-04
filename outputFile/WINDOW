@@ -1,0 +1,45 @@
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9904032570763862 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9868297271872061 precision:0.01639344262295082 recall:0.04 f1:0.023255813953488372 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.979136690647482 precision:0.014705882352941176 recall:0.047619047619047616 f1:0.022471910112359546 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.9762506316321374 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.9785292538915727 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.9697669940304255 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.9859806723832857 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.9615515481456277 precision:0.010752688172043012 recall:0.045454545454545456 f1:0.017391304347826084 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.9719029374201787 precision:0.014492753623188406 recall:0.047619047619047616 f1:0.022222222222222223 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9941619097042034 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9893276414087513 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.9573675496688742 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.9873536299765808 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9865910607071381 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.9778686073173163 precision:0.005291005291005291 recall:0.02857142857142857 f1:0.00892857142857143 
+

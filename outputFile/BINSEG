@@ -1,0 +1,45 @@
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9298177588212485 precision:0.0014104372355430183 recall:0.058823529411764705 f1:0.0027548209366391185 
+
+model:in\marianne7_input.txt
+Timeseries:in\marianne7_input.txt accuracy:0.9256820319849483 precision:0.010893246187363835 recall:0.2 f1:0.02066115702479339 
+
+model:in\marianne8_input.txt
+Timeseries:in\marianne8_input.txt accuracy:0.8949640287769784 precision:0.0070921985815602835 recall:0.14285714285714285 f1:0.01351351351351351 
+
+model:in\marianne10_input.txt
+Timeseries:in\marianne10_input.txt accuracy:0.8731682668014149 precision:0.0041753653444676405 recall:0.07407407407407407 f1:0.007905138339920948 
+
+model:in\marianne18_input.txt
+Timeseries:in\marianne18_input.txt accuracy:0.8908570406154948 precision:0.003401360544217687 recall:0.07692307692307693 f1:0.0065146579804560255 
+
+model:in\marianne19_input.txt
+Timeseries:in\marianne19_input.txt accuracy:0.8794531099557096 precision:0.0049504950495049506 recall:0.11538461538461539 f1:0.00949367088607595 
+
+model:in\marianne24_input.txt
+Timeseries:in\marianne24_input.txt accuracy:0.943106029671975 precision:0.0026666666666666666 recall:0.022222222222222223 f1:0.0047619047619047615 
+
+model:in\marianne26_input.txt
+Timeseries:in\marianne26_input.txt accuracy:0.8251105818305546 precision:0.008 recall:0.18181818181818182 f1:0.015325670498084292 
+
+model:in\marianne41_input.txt
+Timeseries:in\marianne41_input.txt accuracy:0.8662196679438059 precision:0.007425742574257425 recall:0.14285714285714285 f1:0.01411764705882353 
+
+model:in\marianne42_input.txt
+Timeseries:in\marianne42_input.txt accuracy:0.9850804359107421 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne43_input.txt
+Timeseries:in\marianne43_input.txt accuracy:0.9427797389376898 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\marianne47_input.txt
+Timeseries:in\marianne47_input.txt accuracy:0.8311258278145696 precision:0.015748031496062992 recall:0.15384615384615385 f1:0.02857142857142857 
+
+model:in\muriel18_input.txt
+Timeseries:in\muriel18_input.txt accuracy:0.90647931303669 precision:0.006779661016949152 recall:0.23529411764705882 f1:0.013179571663920921 
+
+model:in\muriel26_input.txt
+Timeseries:in\muriel26_input.txt accuracy:0.9140760507004669 precision:0.0031923383878691143 recall:0.09302325581395349 f1:0.00617283950617284 
+
+model:in\muriel27_input.txt
+Timeseries:in\muriel27_input.txt accuracy:0.8660153524075367 precision:0.0060377358490566035 recall:0.22857142857142856 f1:0.011764705882352941 
+
