@@ -337,3 +337,39 @@ Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0
 model:in\cora5_input.txt
 Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
 
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8910430399379604 precision:0.22004357298474944 recall:0.11649365628604383 f1:0.15233785822021118 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8818340442031796 precision:0.28431372549019607 recall:0.2675893886966551 f1:0.2756981580510992 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8910430399379604 precision:0.22004357298474944 recall:0.11649365628604383 f1:0.15233785822021118 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8818340442031796 precision:0.28431372549019607 recall:0.2675893886966551 f1:0.2756981580510992 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8910430399379604 precision:0.22004357298474944 recall:0.11649365628604383 f1:0.15233785822021118 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8818340442031796 precision:0.28431372549019607 recall:0.2675893886966551 f1:0.2756981580510992 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
