@@ -373,3 +373,135 @@ Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.2953431372
 model:in\cora5_input.txt
 Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
 
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8603140752229547 precision:0.1482843137254902 recall:0.1395617070357555 f1:0.14379084967320263 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8531407522295463 precision:0.10294117647058823 recall:0.09688581314878893 f1:0.0998217468805704 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8531407522295463 precision:0.10294117647058823 recall:0.09688581314878893 f1:0.0998217468805704 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8818340442031796 precision:0.28431372549019607 recall:0.2675893886966551 f1:0.2756981580510992 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8910430399379604 precision:0.22004357298474944 recall:0.11649365628604383 f1:0.15233785822021118 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8818340442031796 precision:0.28431372549019607 recall:0.2675893886966551 f1:0.2756981580510992 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.8835789065529275 precision:0.29534313725490197 recall:0.2779700115340254 f1:0.28639334521687465 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.7237301279565723 precision:0.7598039215686274 recall:0.1893708002443494 f1:0.30317848410757947 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9974796432725863 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
+
