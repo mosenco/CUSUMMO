@@ -505,3 +505,15 @@ Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0
 model:in\cora5_input.txt
 Timeseries:in\cora5_input.txt accuracy:0.9968010856921288 precision:0.0 recall:0.0 f1:0.0 
 
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9905001938735944 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9855564172159752 precision:0.007462686567164179 recall:0.058823529411764705 f1:0.013245033112582783 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9884645211322218 precision:0.0 recall:0.0 f1:0.0 
+
+model:in\cora5_input.txt
+Timeseries:in\cora5_input.txt accuracy:0.9855564172159752 precision:0.007462686567164179 recall:0.058823529411764705 f1:0.013245033112582783 
+
