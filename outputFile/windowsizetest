@@ -1,0 +1,704 @@
+in\cora1_input.txt
+column:2
+fft:401 acf:280 suss:140
+
+in\cora1_input.txt
+column:4
+fft:988 acf:986 suss:122
+
+in\cora1_input.txt
+column:5
+fft:917 acf:139 suss:134
+
+in\cora1_input.txt
+column:6
+fft:917 acf:49 suss:122
+
+in\cora1_input.txt
+column:7
+fft:133 acf:172 suss:140
+
+in\cora1_input.txt
+column:8
+fft:917 acf:130 suss:148
+
+in\cora1_input.txt
+column:9
+fft:494 acf:181 suss:134
+
+in\cora1_input.txt
+column:10
+fft:988 acf:170 suss:108
+
+in\cora4_input.txt
+column:2
+fft:127 acf:265 suss:122
+
+in\cora4_input.txt
+column:4
+fft:867 acf:985 suss:112
+
+in\cora4_input.txt
+column:5
+fft:154 acf:135 suss:98
+
+in\cora4_input.txt
+column:6
+fft:144 acf:272 suss:110
+
+in\cora4_input.txt
+column:7
+fft:289 acf:593 suss:146
+
+in\cora4_input.txt
+column:8
+fft:255 acf:524 suss:134
+
+in\cora4_input.txt
+column:9
+fft:394 acf:37 suss:124
+
+in\cora4_input.txt
+column:10
+fft:481 acf:114 suss:94
+
+in\cora5_input.txt
+column:2
+fft:102 acf:204 suss:146
+
+in\cora5_input.txt
+column:4
+fft:98 acf:99 suss:106
+
+in\cora5_input.txt
+column:5
+fft:102 acf:198 suss:120
+
+in\cora5_input.txt
+column:6
+fft:96 acf:97 suss:120
+
+in\cora5_input.txt
+column:7
+fft:937 acf:107 suss:142
+
+in\cora5_input.txt
+column:8
+fft:687 acf:132 suss:158
+
+in\cora5_input.txt
+column:9
+fft:50 acf:203 suss:146
+
+in\cora5_input.txt
+column:10
+fft:937 acf:200 suss:104
+
+in\cora14_input.txt
+column:2
+fft:118 acf:120 suss:112
+
+in\cora14_input.txt
+column:4
+fft:729 acf:834 suss:122
+
+in\cora14_input.txt
+column:5
+fft:115 acf:129 suss:114
+
+in\cora14_input.txt
+column:6
+fft:486 acf:42 suss:118
+
+in\cora14_input.txt
+column:7
+fft:243 acf:249 suss:124
+
+in\cora14_input.txt
+column:8
+fft:273 acf:219 suss:106
+
+in\cora14_input.txt
+column:9
+fft:168 acf:130 suss:106
+
+in\cora14_input.txt
+column:10
+fft:291 acf:923 suss:98
+
+in\cora14_input.txt
+column:2
+fft:118 acf:120 suss:112
+
+in\cora14_input.txt
+column:4
+fft:729 acf:834 suss:122
+
+in\cora14_input.txt
+column:5
+fft:115 acf:129 suss:114
+
+in\cora14_input.txt
+column:6
+fft:486 acf:42 suss:118
+
+in\cora14_input.txt
+column:7
+fft:243 acf:249 suss:124
+
+in\cora14_input.txt
+column:8
+fft:273 acf:219 suss:106
+
+in\cora14_input.txt
+column:9
+fft:168 acf:130 suss:106
+
+in\cora14_input.txt
+column:10
+fft:291 acf:923 suss:98
+
+in\marianne7_input.txt
+column:2
+fft:490 acf:136 suss:134
+
+in\marianne7_input.txt
+column:4
+fft:911 acf:521 suss:134
+
+in\marianne7_input.txt
+column:5
+fft:303 acf:900 suss:154
+
+in\marianne7_input.txt
+column:6
+fft:289 acf:224 suss:152
+
+in\marianne7_input.txt
+column:7
+fft:398 acf:844 suss:148
+
+in\marianne7_input.txt
+column:8
+fft:255 acf:237 suss:148
+
+in\marianne7_input.txt
+column:9
+fft:151 acf:297 suss:134
+
+in\marianne7_input.txt
+column:10
+fft:245 acf:474 suss:104
+
+in\marianne8_input.txt
+column:2
+fft:694 acf:168 suss:112
+
+in\marianne8_input.txt
+column:4
+fft:595 acf:654 suss:124
+
+in\marianne8_input.txt
+column:5
+fft:297 acf:241 suss:146
+
+in\marianne8_input.txt
+column:6
+fft:833 acf:903 suss:150
+
+in\marianne8_input.txt
+column:7
+fft:416 acf:49 suss:154
+
+in\marianne8_input.txt
+column:8
+fft:277 acf:575 suss:140
+
+in\marianne8_input.txt
+column:9
+fft:245 acf:520 suss:134
+
+in\marianne8_input.txt
+column:10
+fft:277 acf:258 suss:90
+
+in\marianne10_input.txt
+column:2
+fft:659 acf:140 suss:122
+
+in\marianne10_input.txt
+column:4
+fft:989 acf:372 suss:118
+
+in\marianne10_input.txt
+column:5
+fft:494 acf:172 suss:134
+
+in\marianne10_input.txt
+column:6
+fft:439 acf:907 suss:146
+
+in\marianne10_input.txt
+column:7
+fft:359 acf:781 suss:124
+
+in\marianne10_input.txt
+column:8
+fft:395 acf:720 suss:138
+
+in\marianne10_input.txt
+column:9
+fft:659 acf:84 suss:110
+
+in\marianne10_input.txt
+column:10
+fft:494 acf:990 suss:90
+
+in\marianne18_input.txt
+column:2
+fft:372 acf:377 suss:122
+
+in\marianne18_input.txt
+column:4
+fft:399 acf:403 suss:118
+
+in\marianne18_input.txt
+column:5
+fft:465 acf:995 suss:136
+
+in\marianne18_input.txt
+column:6
+fft:223 acf:700 suss:136
+
+in\marianne18_input.txt
+column:7
+fft:372 acf:352 suss:136
+
+in\marianne18_input.txt
+column:8
+fft:164 acf:656 suss:148
+
+in\marianne18_input.txt
+column:9
+fft:372 acf:705 suss:128
+
+in\marianne18_input.txt
+column:10
+fft:508 acf:538 suss:88
+
+in\marianne19_input.txt
+column:2
+fft:519 acf:512 suss:122
+
+in\marianne19_input.txt
+column:4
+fft:472 acf:436 suss:124
+
+in\marianne19_input.txt
+column:5
+fft:346 acf:31 suss:130
+
+in\marianne19_input.txt
+column:6
+fft:167 acf:34 suss:128
+
+in\marianne19_input.txt
+column:7
+fft:576 acf:579 suss:126
+
+in\marianne19_input.txt
+column:8
+fft:305 acf:39 suss:154
+
+in\marianne19_input.txt
+column:9
+fft:126 acf:500 suss:128
+
+in\marianne19_input.txt
+column:10
+fft:472 acf:446 suss:86
+
+in\marianne24_input.txt
+column:2
+fft:612 acf:150 suss:146
+
+in\marianne24_input.txt
+column:4
+fft:918 acf:616 suss:146
+
+in\marianne24_input.txt
+column:5
+fft:282 acf:186 suss:154
+
+in\marianne24_input.txt
+column:6
+fft:282 acf:580 suss:152
+
+in\marianne24_input.txt
+column:7
+fft:367 acf:303 suss:148
+
+in\marianne24_input.txt
+column:8
+fft:188 acf:936 suss:144
+
+in\marianne24_input.txt
+column:9
+fft:816 acf:170 suss:146
+
+in\marianne24_input.txt
+column:10
+fft:306 acf:90 suss:112
+
+in\marianne26_input.txt
+column:2
+fft:267 acf:328 suss:96
+
+in\marianne26_input.txt
+column:4
+fft:489 acf:409 suss:98
+
+in\marianne26_input.txt
+column:5
+fft:154 acf:154 suss:88
+
+in\marianne26_input.txt
+column:6
+fft:133 acf:165 suss:90
+
+in\marianne26_input.txt
+column:7
+fft:195 acf:201 suss:108
+
+in\marianne26_input.txt
+column:8
+fft:104 acf:79 suss:104
+
+in\marianne26_input.txt
+column:9
+fft:108 acf:116 suss:92
+
+in\marianne26_input.txt
+column:10
+fft:326 acf:364 suss:74
+
+in\marianne41_input.txt
+column:2
+fft:391 acf:356 suss:116
+
+in\marianne41_input.txt
+column:4
+fft:447 acf:862 suss:118
+
+in\marianne41_input.txt
+column:5
+fft:391 acf:67 suss:132
+
+in\marianne41_input.txt
+column:6
+fft:521 acf:441 suss:128
+
+in\marianne41_input.txt
+column:7
+fft:347 acf:363 suss:136
+
+in\marianne41_input.txt
+column:8
+fft:107 acf:878 suss:138
+
+in\marianne41_input.txt
+column:9
+fft:391 acf:91 suss:106
+
+in\marianne41_input.txt
+column:10
+fft:284 acf:264 suss:82
+
+in\marianne42_input.txt
+column:2
+fft:770 acf:53 suss:154
+
+in\marianne42_input.txt
+column:4
+fft:963 acf:487 suss:152
+
+in\marianne42_input.txt
+column:5
+fft:248 acf:35 suss:154
+
+in\marianne42_input.txt
+column:6
+fft:366 acf:39 suss:156
+
+in\marianne42_input.txt
+column:7
+fft:296 acf:960 suss:160
+
+in\marianne42_input.txt
+column:8
+fft:642 acf:48 suss:160
+
+in\marianne42_input.txt
+column:9
+fft:770 acf:47 suss:156
+
+in\marianne42_input.txt
+column:10
+fft:770 acf:10 suss:138
+
+in\marianne43_input.txt
+column:2
+fft:529 acf:97 suss:146
+
+in\marianne43_input.txt
+column:4
+fft:870 acf:832 suss:138
+
+in\marianne43_input.txt
+column:5
+fft:297 acf:28 suss:154
+
+in\marianne43_input.txt
+column:6
+fft:529 acf:39 suss:156
+
+in\marianne43_input.txt
+column:7
+fft:60 acf:60 suss:146
+
+in\marianne43_input.txt
+column:8
+fft:259 acf:912 suss:148
+
+in\marianne43_input.txt
+column:9
+fft:529 acf:565 suss:152
+
+in\marianne43_input.txt
+column:10
+fft:716 acf:130 suss:116
+
+in\marianne47_input.txt
+column:2
+fft:161 acf:304 suss:98
+
+in\marianne47_input.txt
+column:4
+fft:805 acf:865 suss:100
+
+in\marianne47_input.txt
+column:5
+fft:172 acf:200 suss:116
+
+in\marianne47_input.txt
+column:6
+fft:482 acf:606 suss:114
+
+in\marianne47_input.txt
+column:7
+fft:345 acf:643 suss:134
+
+in\marianne47_input.txt
+column:8
+fft:201 acf:406 suss:108
+
+in\marianne47_input.txt
+column:9
+fft:268 acf:315 suss:114
+
+in\marianne47_input.txt
+column:10
+fft:241 acf:56 suss:78
+
+in\marianne48_input.txt
+column:2
+fft:99 acf:205 suss:110
+
+in\marianne48_input.txt
+column:4
+fft:846 acf:674 suss:110
+
+in\marianne48_input.txt
+column:5
+fft:225 acf:231 suss:142
+
+in\marianne48_input.txt
+column:6
+fft:130 acf:258 suss:128
+
+in\marianne48_input.txt
+column:7
+fft:178 acf:864 suss:128
+
+in\marianne48_input.txt
+column:8
+fft:423 acf:64 suss:150
+
+in\marianne48_input.txt
+column:9
+fft:102 acf:99 suss:126
+
+in\marianne48_input.txt
+column:10
+fft:225 acf:224 suss:88
+
+in\marianne48_input.txt
+column:2
+fft:99 acf:205 suss:110
+
+in\marianne48_input.txt
+column:4
+fft:846 acf:674 suss:110
+
+in\marianne48_input.txt
+column:5
+fft:225 acf:231 suss:142
+
+in\marianne48_input.txt
+column:6
+fft:130 acf:258 suss:128
+
+in\marianne48_input.txt
+column:7
+fft:178 acf:864 suss:128
+
+in\marianne48_input.txt
+column:8
+fft:423 acf:64 suss:150
+
+in\marianne48_input.txt
+column:9
+fft:102 acf:99 suss:126
+
+in\marianne48_input.txt
+column:10
+fft:225 acf:224 suss:88
+
+in\muriel18_input.txt
+column:2
+fft:711 acf:80 suss:132
+
+in\muriel18_input.txt
+column:4
+fft:640 acf:162 suss:128
+
+in\muriel18_input.txt
+column:5
+fft:711 acf:172 suss:154
+
+in\muriel18_input.txt
+column:6
+fft:914 acf:131 suss:148
+
+in\muriel18_input.txt
+column:7
+fft:320 acf:950 suss:154
+
+in\muriel18_input.txt
+column:8
+fft:711 acf:469 suss:150
+
+in\muriel18_input.txt
+column:9
+fft:640 acf:65 suss:140
+
+in\muriel18_input.txt
+column:10
+fft:457 acf:152 suss:94
+
+in\muriel26_input.txt
+column:2
+fft:428 acf:104 suss:142
+
+in\muriel26_input.txt
+column:4
+fft:651 acf:643 suss:126
+
+in\muriel26_input.txt
+column:5
+fft:788 acf:187 suss:152
+
+in\muriel26_input.txt
+column:6
+fft:936 acf:88 suss:148
+
+in\muriel26_input.txt
+column:7
+fft:936 acf:150 suss:156
+
+in\muriel26_input.txt
+column:8
+fft:999 acf:40 suss:154
+
+in\muriel26_input.txt
+column:9
+fft:428 acf:101 suss:142
+
+in\muriel26_input.txt
+column:10
+fft:788 acf:96 suss:98
+
+in\muriel27_input.txt
+column:2
+fft:557 acf:47 suss:132
+
+in\muriel27_input.txt
+column:4
+fft:716 acf:192 suss:118
+
+in\muriel27_input.txt
+column:5
+fft:200 acf:168 suss:138
+
+in\muriel27_input.txt
+column:6
+fft:911 acf:135 suss:144
+
+in\muriel27_input.txt
+column:7
+fft:192 acf:708 suss:148
+
+in\muriel27_input.txt
+column:8
+fft:271 acf:261 suss:146
+
+in\muriel27_input.txt
+column:9
+fft:557 acf:53 suss:146
+
+in\muriel27_input.txt
+column:10
+fft:455 acf:182 suss:112
+
+in\muriel30_input.txt
+column:2
+fft:349 acf:76 suss:136
+
+in\muriel30_input.txt
+column:4
+fft:858 acf:420 suss:124
+
+in\muriel30_input.txt
+column:5
+fft:726 acf:60 suss:148
+
+in\muriel30_input.txt
+column:6
+fft:858 acf:58 suss:148
+
+in\muriel30_input.txt
+column:7
+fft:787 acf:175 suss:146
+
+in\muriel30_input.txt
+column:8
+fft:858 acf:69 suss:146
+
+in\muriel30_input.txt
+column:9
+fft:349 acf:171 suss:134
+
+in\muriel30_input.txt
+column:10
+fft:674 acf:486 suss:108
+
