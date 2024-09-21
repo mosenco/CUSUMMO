@@ -1,0 +1,792 @@
+in\cora1_input.txt
+suss
+precision:0.14622641509433962 recall:0.96875 f1:0.2540983606557377 
+
+in\cora4_input.txt
+suss
+precision:0.18604651162790697 recall:1.0 f1:0.3137254901960785 
+
+in\cora5_input.txt
+suss
+precision:0.11594202898550725 recall:0.9411764705882353 f1:0.2064516129032258 
+
+in\cora14_input.txt
+suss
+precision:0.35294117647058826 recall:0.96 f1:0.5161290322580645 
+
+in\cora14_input.txt
+suss
+precision:0.29411764705882354 recall:0.9523809523809523 f1:0.449438202247191 
+
+in\marianne7_input.txt
+suss
+precision:0.30864197530864196 recall:0.9259259259259259 f1:0.4629629629629629 
+
+in\marianne8_input.txt
+suss
+precision:0.375 recall:0.9230769230769231 f1:0.5333333333333333 
+
+in\marianne10_input.txt
+suss
+precision:0.3880597014925373 recall:1.0 f1:0.5591397849462366 
+
+in\marianne18_input.txt
+suss
+precision:0.5526315789473685 recall:0.9333333333333333 f1:0.694214876033058 
+
+in\marianne19_input.txt
+suss
+precision:0.25301204819277107 recall:0.9545454545454546 f1:0.39999999999999997 
+
+in\marianne24_input.txt
+suss
+precision:0.19801980198019803 recall:0.9523809523809523 f1:0.3278688524590164 
+
+in\marianne26_input.txt
+suss
+precision:0.20754716981132076 recall:0.8461538461538461 f1:0.33333333333333337 
+
+in\marianne41_input.txt
+suss
+precision:0.12280701754385964 recall:0.7777777777777778 f1:0.2121212121212121 
+
+in\marianne42_input.txt
+suss
+precision:0.3723404255319149 recall:0.8974358974358975 f1:0.5263157894736843 
+
+in\marianne43_input.txt
+suss
+precision:0.12056737588652482 recall:1.0 f1:0.2151898734177215 
+
+in\marianne47_input.txt
+suss
+precision:0.37209302325581395 recall:0.9411764705882353 f1:0.5333333333333333 
+
+in\marianne48_input.txt
+suss
+precision:0.3018867924528302 recall:0.9411764705882353 f1:0.4571428571428572 
+
+in\marianne48_input.txt
+suss
+precision:0.7735849056603774 recall:0.9534883720930233 f1:0.8541666666666667 
+
+in\muriel18_input.txt
+suss
+precision:0.3269230769230769 recall:0.9714285714285714 f1:0.48920863309352514 
+
+in\muriel26_input.txt
+suss
+precision:0.3162393162393162 recall:0.9866666666666667 f1:0.47896440129449847 
+
+in\muriel27_input.txt
+suss
+precision:0.5 recall:0.9620253164556962 f1:0.658008658008658 
+
+in\muriel30_input.txt
+suss
+precision:0.4383561643835616 recall:0.9552238805970149 f1:0.6009389671361502 
+
+in\cora1_input.txt
+fft
+precision:0.23404255319148937 recall:0.34375 f1:0.27848101265822783 
+
+in\cora4_input.txt
+fft
+precision:0.3684210526315789 recall:0.875 f1:0.5185185185185185 
+
+in\cora5_input.txt
+fft
+precision:0.1650485436893204 recall:1.0 f1:0.2833333333333334 
+
+in\cora14_input.txt
+fft
+precision:0.4791666666666667 recall:0.92 f1:0.6301369863013699 
+
+in\cora14_input.txt
+fft
+precision:0.3541666666666667 recall:0.8095238095238095 f1:0.4927536231884058 
+
+in\marianne7_input.txt
+fft
+precision:0.4318181818181818 recall:0.7037037037037037 f1:0.5352112676056339 
+
+in\marianne8_input.txt
+fft
+precision:0.7142857142857143 recall:0.38461538461538464 f1:0.5 
+
+in\marianne10_input.txt
+fft
+precision:0.9 recall:0.34615384615384615 f1:0.5 
+
+in\marianne18_input.txt
+fft
+precision:0.8529411764705882 recall:0.6444444444444445 f1:0.7341772151898734 
+
+in\marianne19_input.txt
+fft
+precision:0.5 recall:0.5454545454545454 f1:0.5217391304347826 
+
+in\marianne24_input.txt
+fft
+precision:0.38095238095238093 recall:0.7619047619047619 f1:0.5079365079365079 
+
+in\marianne26_input.txt
+fft
+precision:0.43478260869565216 recall:0.7692307692307693 f1:0.5555555555555555 
+
+in\marianne41_input.txt
+fft
+precision:0.17647058823529413 recall:0.3333333333333333 f1:0.23076923076923078 
+
+in\marianne42_input.txt
+fft
+precision:0.5555555555555556 recall:0.38461538461538464 f1:0.4545454545454546 
+
+in\marianne43_input.txt
+fft
+precision:0.19047619047619047 recall:0.7058823529411765 f1:0.3 
+
+in\marianne47_input.txt
+fft
+precision:0.8666666666666667 recall:0.7647058823529411 f1:0.8125 
+
+in\marianne48_input.txt
+fft
+precision:0.43243243243243246 recall:0.9411764705882353 f1:0.5925925925925927 
+
+in\marianne48_input.txt
+fft
+precision:0.8378378378378378 recall:0.7209302325581395 f1:0.7749999999999999 
+
+in\muriel18_input.txt
+fft
+precision:0.5555555555555556 recall:0.2857142857142857 f1:0.3773584905660377 
+
+in\muriel26_input.txt
+fft
+precision:0.6304347826086957 recall:0.38666666666666666 f1:0.4793388429752066 
+
+in\muriel27_input.txt
+fft
+precision:0.803030303030303 recall:0.6708860759493671 f1:0.7310344827586207 
+
+in\muriel30_input.txt
+fft
+precision:0.9090909090909091 recall:0.29850746268656714 f1:0.44943820224719094 
+
+in\cora1_input.txt
+acf
+precision:0.1901840490797546 recall:0.96875 f1:0.31794871794871793 
+
+in\cora4_input.txt
+acf
+precision:0.25925925925925924 recall:0.875 f1:0.39999999999999997 
+
+in\cora5_input.txt
+acf
+precision:0.13008130081300814 recall:0.9411764705882353 f1:0.22857142857142856 
+
+in\cora14_input.txt
+acf
+precision:0.32894736842105265 recall:1.0 f1:0.4950495049504951 
+
+in\cora14_input.txt
+acf
+precision:0.3 recall:1.0 f1:0.4615384615384615 
+
+in\marianne7_input.txt
+acf
+precision:0.4117647058823529 recall:0.5185185185185185 f1:0.45901639344262296 
+
+in\marianne8_input.txt
+acf
+precision:0.5952380952380952 recall:0.9615384615384616 f1:0.7352941176470588 
+
+in\marianne10_input.txt
+acf
+precision:0.6666666666666666 recall:0.7692307692307693 f1:0.7142857142857142 
+
+in\marianne18_input.txt
+acf
+precision:0.8571428571428571 recall:0.4 f1:0.5454545454545455 
+
+in\marianne19_input.txt
+acf
+precision:0.25316455696202533 recall:0.9090909090909091 f1:0.396039603960396 
+
+in\marianne24_input.txt
+acf
+precision:0.27692307692307694 recall:0.8571428571428571 f1:0.41860465116279066 
+
+in\marianne26_input.txt
+acf
+precision:0.3448275862068966 recall:0.7692307692307693 f1:0.47619047619047616 
+
+in\marianne41_input.txt
+acf
+precision:0.21428571428571427 recall:0.6666666666666666 f1:0.3243243243243243 
+
+in\marianne42_input.txt
+acf
+precision:0.18055555555555555 recall:1.0 f1:0.30588235294117644 
+
+in\marianne43_input.txt
+acf
+precision:0.1509433962264151 recall:0.9411764705882353 f1:0.2601626016260163 
+
+in\marianne47_input.txt
+acf
+precision:0.8571428571428571 recall:0.7058823529411765 f1:0.7741935483870968 
+
+in\marianne48_input.txt
+acf
+precision:0.48484848484848486 recall:0.9411764705882353 f1:0.64 
+
+in\marianne48_input.txt
+acf
+precision:0.8787878787878788 recall:0.6744186046511628 f1:0.7631578947368421 
+
+in\muriel18_input.txt
+acf
+precision:0.4305555555555556 recall:0.8857142857142857 f1:0.5794392523364487 
+
+in\muriel26_input.txt
+acf
+precision:0.2568493150684932 recall:1.0 f1:0.40871934604904636 
+
+in\muriel27_input.txt
+acf
+precision:0.430939226519337 recall:0.9873417721518988 f1:0.6000000000000001 
+
+in\muriel30_input.txt
+acf
+precision:0.32057416267942584 recall:1.0 f1:0.4855072463768116 
+
+in\cora1_input.txt
+suss euclidean
+precision:0.1382488479262673 recall:0.9375 f1:0.24096385542168675 
+
+in\cora4_input.txt
+suss euclidean
+precision:0.20253164556962025 recall:1.0 f1:0.3368421052631579 
+
+in\cora5_input.txt
+suss euclidean
+precision:0.11940298507462686 recall:0.9411764705882353 f1:0.21192052980132453 
+
+in\cora14_input.txt
+suss euclidean
+precision:0.3770491803278688 recall:0.92 f1:0.5348837209302325 
+
+in\cora14_input.txt
+suss euclidean
+precision:0.29508196721311475 recall:0.8571428571428571 f1:0.43902439024390244 
+
+in\marianne7_input.txt
+suss euclidean
+precision:0.23148148148148148 recall:0.9259259259259259 f1:0.3703703703703704 
+
+in\marianne8_input.txt
+suss euclidean
+precision:0.390625 recall:0.9615384615384616 f1:0.5555555555555556 
+
+in\marianne10_input.txt
+suss euclidean
+precision:0.5 recall:1.0 f1:0.6666666666666666 
+
+in\marianne18_input.txt
+suss euclidean
+precision:0.45555555555555555 recall:0.9111111111111111 f1:0.6074074074074074 
+
+in\marianne19_input.txt
+suss euclidean
+precision:0.25675675675675674 recall:0.8636363636363636 f1:0.3958333333333333 
+
+in\marianne24_input.txt
+suss euclidean
+precision:0.19607843137254902 recall:0.9523809523809523 f1:0.3252032520325203 
+
+in\marianne26_input.txt
+suss euclidean
+precision:0.2558139534883721 recall:0.8461538461538461 f1:0.3928571428571428 
+
+in\marianne41_input.txt
+suss euclidean
+precision:0.10714285714285714 recall:0.6666666666666666 f1:0.18461538461538463 
+
+in\marianne42_input.txt
+suss euclidean
+precision:0.32727272727272727 recall:0.9230769230769231 f1:0.4832214765100671 
+
+in\marianne43_input.txt
+suss euclidean
+precision:0.11347517730496454 recall:0.9411764705882353 f1:0.20253164556962025 
+
+in\marianne47_input.txt
+suss euclidean
+precision:0.4838709677419355 recall:0.8823529411764706 f1:0.625 
+
+in\marianne48_input.txt
+suss euclidean
+precision:0.3333333333333333 recall:1.0 f1:0.5 
+
+in\marianne48_input.txt
+suss euclidean
+precision:0.7647058823529411 recall:0.9069767441860465 f1:0.8297872340425532 
+
+in\muriel18_input.txt
+suss euclidean
+precision:0.330188679245283 recall:1.0 f1:0.4964539007092198 
+
+in\muriel26_input.txt
+suss euclidean
+precision:0.3021276595744681 recall:0.9466666666666667 f1:0.4580645161290322 
+
+in\muriel27_input.txt
+suss euclidean
+precision:0.49295774647887325 recall:0.8860759493670886 f1:0.6334841628959276 
+
+in\muriel30_input.txt
+suss euclidean
+precision:0.40372670807453415 recall:0.9701492537313433 f1:0.5701754385964911 
+
+in\cora1_input.txt
+fft euclidean
+precision:0.3 recall:0.5625 f1:0.3913043478260869 
+
+in\cora4_input.txt
+fft euclidean
+precision:0.3409090909090909 recall:0.9375 f1:0.5 
+
+in\cora5_input.txt
+fft euclidean
+precision:0.16666666666666666 recall:1.0 f1:0.2857142857142857 
+
+in\cora14_input.txt
+fft euclidean
+precision:0.5128205128205128 recall:0.8 f1:0.625 
+
+in\cora14_input.txt
+fft euclidean
+precision:0.41025641025641024 recall:0.7619047619047619 f1:0.5333333333333333 
+
+in\marianne7_input.txt
+fft euclidean
+precision:0.4883720930232558 recall:0.7777777777777778 f1:0.6000000000000001 
+
+in\marianne8_input.txt
+fft euclidean
+precision:0.7142857142857143 recall:0.5769230769230769 f1:0.6382978723404256 
+
+in\marianne10_input.txt
+fft euclidean
+precision:0.8333333333333334 recall:0.38461538461538464 f1:0.5263157894736842 
+
+in\marianne18_input.txt
+fft euclidean
+precision:0.8275862068965517 recall:0.5333333333333333 f1:0.6486486486486487 
+
+in\marianne19_input.txt
+fft euclidean
+precision:0.3870967741935484 recall:0.5454545454545454 f1:0.45283018867924524 
+
+in\marianne24_input.txt
+fft euclidean
+precision:0.42424242424242425 recall:0.6666666666666666 f1:0.5185185185185185 
+
+in\marianne26_input.txt
+fft euclidean
+precision:0.38461538461538464 recall:0.38461538461538464 f1:0.38461538461538464 
+
+in\marianne41_input.txt
+fft euclidean
+precision:0.13333333333333333 recall:0.2222222222222222 f1:0.16666666666666669 
+
+in\marianne42_input.txt
+fft euclidean
+precision:0.5454545454545454 recall:0.46153846153846156 f1:0.4999999999999999 
+
+in\marianne43_input.txt
+fft euclidean
+precision:0.2 recall:0.6470588235294118 f1:0.3055555555555555 
+
+in\marianne47_input.txt
+fft euclidean
+precision:0.8125 recall:0.7647058823529411 f1:0.787878787878788 
+
+in\marianne48_input.txt
+fft euclidean
+precision:0.42857142857142855 recall:0.8823529411764706 f1:0.5769230769230769 
+
+in\marianne48_input.txt
+fft euclidean
+precision:0.9142857142857143 recall:0.7441860465116279 f1:0.8205128205128205 
+
+in\muriel18_input.txt
+fft euclidean
+precision:0.7142857142857143 recall:0.2857142857142857 f1:0.40816326530612246 
+
+in\muriel26_input.txt
+fft euclidean
+precision:0.6458333333333334 recall:0.41333333333333333 f1:0.5040650406504066 
+
+in\muriel27_input.txt
+fft euclidean
+precision:0.8548387096774194 recall:0.6708860759493671 f1:0.7517730496453902 
+
+in\muriel30_input.txt
+fft euclidean
+precision:0.9230769230769231 recall:0.3582089552238806 f1:0.5161290322580645 
+
+in\cora1_input.txt
+acf euclidean
+precision:0.16666666666666666 recall:0.9375 f1:0.2830188679245283 
+
+in\cora4_input.txt
+acf euclidean
+precision:0.2830188679245283 recall:0.9375 f1:0.4347826086956522 
+
+in\cora5_input.txt
+acf euclidean
+precision:0.12686567164179105 recall:1.0 f1:0.2251655629139073 
+
+in\cora14_input.txt
+acf euclidean
+precision:0.3424657534246575 recall:1.0 f1:0.5102040816326531 
+
+in\cora14_input.txt
+acf euclidean
+precision:0.28169014084507044 recall:0.9523809523809523 f1:0.4347826086956522 
+
+in\marianne7_input.txt
+acf euclidean
+precision:0.5319148936170213 recall:0.9259259259259259 f1:0.6756756756756757 
+
+in\marianne8_input.txt
+acf euclidean
+precision:0.5476190476190477 recall:0.8846153846153846 f1:0.6764705882352942 
+
+in\marianne10_input.txt
+acf euclidean
+precision:0.7241379310344828 recall:0.8076923076923077 f1:0.7636363636363636 
+
+in\marianne18_input.txt
+acf euclidean
+precision:0.9166666666666666 recall:0.24444444444444444 f1:0.3859649122807018 
+
+in\marianne19_input.txt
+acf euclidean
+precision:0.20224719101123595 recall:0.8181818181818182 f1:0.32432432432432434 
+
+in\marianne24_input.txt
+acf euclidean
+precision:0.3076923076923077 recall:0.9523809523809523 f1:0.4651162790697675 
+
+in\marianne26_input.txt
+acf euclidean
+precision:0.5 recall:0.46153846153846156 f1:0.48000000000000004 
+
+in\marianne41_input.txt
+acf euclidean
+precision:0.1724137931034483 recall:0.5555555555555556 f1:0.26315789473684215 
+
+in\marianne42_input.txt
+acf euclidean
+precision:0.19796954314720813 recall:1.0 f1:0.3305084745762712 
+
+in\marianne43_input.txt
+acf euclidean
+precision:0.12149532710280374 recall:0.7647058823529411 f1:0.2096774193548387 
+
+in\marianne47_input.txt
+acf euclidean
+precision:0.85 recall:1.0 f1:0.9189189189189189 
+
+in\marianne48_input.txt
+acf euclidean
+precision:0.4375 recall:0.8235294117647058 f1:0.5714285714285714 
+
+in\marianne48_input.txt
+acf euclidean
+precision:0.9375 recall:0.6976744186046512 f1:0.8000000000000002 
+
+in\muriel18_input.txt
+acf euclidean
+precision:0.38823529411764707 recall:0.9428571428571428 f1:0.55 
+
+in\muriel26_input.txt
+acf euclidean
+precision:0.24834437086092714 recall:1.0 f1:0.3978779840848806 
+
+in\muriel27_input.txt
+acf euclidean
+precision:0.4838709677419355 recall:0.9493670886075949 f1:0.641025641025641 
+
+in\muriel30_input.txt
+acf euclidean
+precision:0.32524271844660196 recall:1.0 f1:0.4908424908424908 
+
+in\cora1_input.txt
+suss euclidean 4 
+precision:0.128 recall:1.0 f1:0.22695035460992907 
+
+in\cora4_input.txt
+suss euclidean 4 
+precision:0.16 recall:1.0 f1:0.2758620689655173 
+
+in\cora5_input.txt
+suss euclidean 4 
+precision:0.1223021582733813 recall:1.0 f1:0.21794871794871798 
+
+in\cora14_input.txt
+suss euclidean 4 
+precision:0.26881720430107525 recall:1.0 f1:0.423728813559322 
+
+in\cora14_input.txt
+suss euclidean 4 
+precision:0.22580645161290322 recall:1.0 f1:0.3684210526315789 
+
+in\marianne7_input.txt
+suss euclidean 4 
+precision:0.2125984251968504 recall:1.0 f1:0.35064935064935066 
+
+in\marianne8_input.txt
+suss euclidean 4 
+precision:0.38235294117647056 recall:1.0 f1:0.5531914893617021 
+
+in\marianne10_input.txt
+suss euclidean 4 
+precision:0.34210526315789475 recall:1.0 f1:0.5098039215686275 
+
+in\marianne18_input.txt
+suss euclidean 4 
+precision:0.42718446601941745 recall:0.9777777777777777 f1:0.5945945945945945 
+
+in\marianne19_input.txt
+suss euclidean 4 
+precision:0.19642857142857142 recall:1.0 f1:0.3283582089552239 
+
+in\marianne24_input.txt
+suss euclidean 4 
+precision:0.16964285714285715 recall:0.9047619047619048 f1:0.28571428571428575 
+
+in\marianne26_input.txt
+suss euclidean 4 
+precision:0.2708333333333333 recall:1.0 f1:0.4262295081967213 
+
+in\marianne41_input.txt
+suss euclidean 4 
+precision:0.1016949152542373 recall:0.6666666666666666 f1:0.1764705882352941 
+
+in\marianne42_input.txt
+suss euclidean 4 
+precision:0.24285714285714285 recall:0.8717948717948718 f1:0.37988826815642457 
+
+in\marianne43_input.txt
+suss euclidean 4 
+precision:0.11188811188811189 recall:0.9411764705882353 f1:0.19999999999999998 
+
+in\marianne47_input.txt
+suss euclidean 4 
+precision:0.3695652173913043 recall:1.0 f1:0.5396825396825397 
+
+in\marianne48_input.txt
+suss euclidean 4 
+precision:0.26153846153846155 recall:1.0 f1:0.41463414634146345 
+
+in\marianne48_input.txt
+suss euclidean 4 
+precision:0.6615384615384615 recall:1.0 f1:0.7962962962962964 
+
+in\muriel18_input.txt
+suss euclidean 4 
+precision:0.28225806451612906 recall:1.0 f1:0.4402515723270441 
+
+in\muriel26_input.txt
+suss euclidean 4 
+precision:0.25435540069686413 recall:0.9733333333333334 f1:0.40331491712707185 
+
+in\muriel27_input.txt
+suss euclidean 4 
+precision:0.44047619047619047 recall:0.9367088607594937 f1:0.5991902834008097 
+
+in\muriel30_input.txt
+suss euclidean 4 
+precision:0.34375 recall:0.9850746268656716 f1:0.5096525096525096 
+
+in\cora1_input.txt
+fft euclidean 4 
+precision:0.30985915492957744 recall:0.6875 f1:0.42718446601941745 
+
+in\cora4_input.txt
+fft euclidean 4 
+precision:0.3076923076923077 recall:1.0 f1:0.47058823529411764 
+
+in\cora5_input.txt
+fft euclidean 4 
+precision:0.16346153846153846 recall:1.0 f1:0.2809917355371901 
+
+in\cora14_input.txt
+fft euclidean 4 
+precision:0.47058823529411764 recall:0.96 f1:0.631578947368421 
+
+in\cora14_input.txt
+fft euclidean 4 
+precision:0.35294117647058826 recall:0.8571428571428571 f1:0.5 
+
+in\marianne7_input.txt
+fft euclidean 4 
+precision:0.38181818181818183 recall:0.7777777777777778 f1:0.5121951219512196 
+
+in\marianne8_input.txt
+fft euclidean 4 
+precision:0.64 recall:0.6153846153846154 f1:0.6274509803921569 
+
+in\marianne10_input.txt
+fft euclidean 4 
+precision:0.8823529411764706 recall:0.5769230769230769 f1:0.6976744186046512 
+
+in\marianne18_input.txt
+fft euclidean 4 
+precision:0.7307692307692307 recall:0.4222222222222222 f1:0.5352112676056338 
+
+in\marianne19_input.txt
+fft euclidean 4 
+precision:0.4146341463414634 recall:0.7727272727272727 f1:0.5396825396825397 
+
+in\marianne24_input.txt
+fft euclidean 4 
+precision:0.47368421052631576 recall:0.8571428571428571 f1:0.6101694915254237 
+
+in\marianne26_input.txt
+fft euclidean 4 
+precision:0.35294117647058826 recall:0.46153846153846156 f1:0.4000000000000001 
+
+in\marianne41_input.txt
+fft euclidean 4 
+precision:0.21739130434782608 recall:0.5555555555555556 f1:0.3125 
+
+in\marianne42_input.txt
+fft euclidean 4 
+precision:0.45454545454545453 recall:0.38461538461538464 f1:0.41666666666666663 
+
+in\marianne43_input.txt
+fft euclidean 4 
+precision:0.13513513513513514 recall:0.5882352941176471 f1:0.21978021978021975 
+
+in\marianne47_input.txt
+fft euclidean 4 
+precision:0.6363636363636364 recall:0.8235294117647058 f1:0.717948717948718 
+
+in\marianne48_input.txt
+fft euclidean 4 
+precision:0.3695652173913043 recall:1.0 f1:0.5396825396825397 
+
+in\marianne48_input.txt
+fft euclidean 4 
+precision:0.8043478260869565 recall:0.8604651162790697 f1:0.8314606741573034 
+
+in\muriel18_input.txt
+fft euclidean 4 
+precision:0.7142857142857143 recall:0.42857142857142855 f1:0.5357142857142858 
+
+in\muriel26_input.txt
+fft euclidean 4 
+precision:0.64 recall:0.4266666666666667 f1:0.512 
+
+in\muriel27_input.txt
+fft euclidean 4 
+precision:0.75 recall:0.759493670886076 f1:0.7547169811320755 
+
+in\muriel30_input.txt
+fft euclidean 4 
+precision:0.8846153846153846 recall:0.34328358208955223 f1:0.49462365591397855 
+
+in\cora1_input.txt
+acf euclidean 4 
+precision:0.15897435897435896 recall:0.96875 f1:0.27312775330396477 
+
+in\cora4_input.txt
+acf euclidean 4 
+precision:0.2459016393442623 recall:0.9375 f1:0.3896103896103896 
+
+in\cora5_input.txt
+acf euclidean 4 
+precision:0.12318840579710146 recall:1.0 f1:0.2193548387096774 
+
+in\cora14_input.txt
+acf euclidean 4 
+precision:0.2976190476190476 recall:1.0 f1:0.4587155963302752 
+
+in\cora14_input.txt
+acf euclidean 4 
+precision:0.2631578947368421 recall:0.9523809523809523 f1:0.4123711340206186 
+
+in\marianne7_input.txt
+acf euclidean 4 
+precision:0.4098360655737705 recall:0.9259259259259259 f1:0.5681818181818182 
+
+in\marianne8_input.txt
+acf euclidean 4 
+precision:0.5 recall:0.9615384615384616 f1:0.6578947368421052 
+
+in\marianne10_input.txt
+acf euclidean 4 
+precision:0.6666666666666666 recall:0.6923076923076923 f1:0.6792452830188679 
+
+in\marianne18_input.txt
+acf euclidean 4 
+precision:1.0 recall:0.4 f1:0.5714285714285715 
+
+in\marianne19_input.txt
+acf euclidean 4 
+precision:0.19791666666666666 recall:0.8636363636363636 f1:0.3220338983050848 
+
+in\marianne24_input.txt
+acf euclidean 4 
+precision:0.2631578947368421 recall:0.9523809523809523 f1:0.4123711340206186 
+
+in\marianne26_input.txt
+acf euclidean 4 
+precision:0.35294117647058826 recall:0.46153846153846156 f1:0.4000000000000001 
+
+in\marianne41_input.txt
+acf euclidean 4 
+precision:0.2 recall:0.6666666666666666 f1:0.30769230769230765 
+
+in\marianne42_input.txt
+acf euclidean 4 
+precision:0.14444444444444443 recall:1.0 f1:0.2524271844660194 
+
+in\marianne43_input.txt
+acf euclidean 4 
+precision:0.11926605504587157 recall:0.7647058823529411 f1:0.20634920634920637 
+
+in\marianne47_input.txt
+acf euclidean 4 
+precision:0.6956521739130435 recall:0.9411764705882353 f1:0.7999999999999999 
+
+in\marianne48_input.txt
+acf euclidean 4 
+precision:0.36363636363636365 recall:0.9411764705882353 f1:0.5245901639344263 
+
+in\marianne48_input.txt
+acf euclidean 4 
+precision:0.8636363636363636 recall:0.8837209302325582 f1:0.8735632183908046 
+
+in\muriel18_input.txt
+acf euclidean 4 
+precision:0.3333333333333333 recall:1.0 f1:0.5 
+
+in\muriel26_input.txt
+acf euclidean 4 
+precision:0.2329192546583851 recall:1.0 f1:0.37783375314861456 
+
+in\muriel27_input.txt
+acf euclidean 4 
+precision:0.42245989304812837 recall:1.0 f1:0.5939849624060151 
+
+in\muriel30_input.txt
+acf euclidean 4 
+precision:0.250936329588015 recall:1.0 f1:0.40119760479041916 
+

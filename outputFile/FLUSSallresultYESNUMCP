@@ -1,0 +1,88 @@
+in\cora1_input.txt
+default
+precision:0.29411764705882354 recall:0.46875 f1:0.3614457831325301 
+
+in\cora4_input.txt
+default
+precision:0.3 recall:0.375 f1:0.33333333333333326 
+
+in\cora5_input.txt
+default
+precision:0.1282051282051282 recall:0.8823529411764706 f1:0.22388059701492535 
+
+in\cora14_input.txt
+default
+precision:0.5 recall:0.72 f1:0.5901639344262295 
+
+in\cora14_input.txt
+default
+precision:0.5 recall:0.8571428571428571 f1:0.631578947368421 
+
+in\marianne7_input.txt
+default
+precision:0.6666666666666666 recall:0.4444444444444444 f1:0.5333333333333333 
+
+in\marianne8_input.txt
+default
+precision:0.631578947368421 recall:0.46153846153846156 f1:0.5333333333333333 
+
+in\marianne10_input.txt
+default
+precision:0.8421052631578947 recall:0.6153846153846154 f1:0.7111111111111111 
+
+in\marianne18_input.txt
+default
+precision:0.9047619047619048 recall:0.4222222222222222 f1:0.5757575757575758 
+
+in\marianne19_input.txt
+default
+precision:0.41379310344827586 recall:0.5454545454545454 f1:0.47058823529411764 
+
+in\marianne24_input.txt
+default
+precision:0.375 recall:0.42857142857142855 f1:0.39999999999999997 
+
+in\marianne26_input.txt
+default
+precision:0.45 recall:0.6923076923076923 f1:0.5454545454545455 
+
+in\marianne41_input.txt
+default
+precision:0.2857142857142857 recall:0.6666666666666666 f1:0.4 
+
+in\marianne42_input.txt
+default
+precision:0.5294117647058824 recall:0.23076923076923078 f1:0.32142857142857145 
+
+in\marianne43_input.txt
+default
+precision:0.275 recall:0.6470588235294118 f1:0.3859649122807018 
+
+in\marianne47_input.txt
+default
+precision:0.7368421052631579 recall:0.8235294117647058 f1:0.7777777777777778 
+
+in\marianne48_input.txt
+default
+precision:0.48148148148148145 recall:0.7647058823529411 f1:0.5909090909090909 
+
+in\marianne48_input.txt
+default
+precision:0.9259259259259259 recall:0.5813953488372093 f1:0.7142857142857142 
+
+in\muriel18_input.txt
+default
+precision:0.5357142857142857 recall:0.42857142857142855 f1:0.47619047619047616 
+
+in\muriel26_input.txt
+default
+precision:0.6 recall:0.16 f1:0.25263157894736843 
+
+in\muriel27_input.txt
+default
+precision:0.9444444444444444 recall:0.21518987341772153 f1:0.35051546391752575 
+
+in\muriel30_input.txt
+default
+precision:0.88 recall:0.3283582089552239 f1:0.4782608695652174 
+
