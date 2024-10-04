@@ -1,0 +1,4 @@
+domande
+
+-ho binseg e fluss che richiedono un numero fisso di cp. come faccio?
+-quale feature/timeseries funziona meglio per i cpd?
