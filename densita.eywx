@@ -6,7 +6,7 @@
       <PropertySet name="gui-mdi">
         <Property name="Private.ZoomFactor">1</Property>
         <Property name="Private.RunLevel">1</Property>
-        <Property name="Private.ScrollPos">1194;228</Property>
+        <Property name="Private.ScrollPos">1140;0</Property>
       </PropertySet>
       <PropertySet name="subpatch">
         <Property name="owner_drawn_block"></Property>
@@ -17,7 +17,7 @@
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1740;250</Property>
-            <Property name="Private.ZOrder">20</Property>
+            <Property name="Private.ZOrder">14</Property>
             <Property name="Private.ObjID">1</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -64,9 +64,9 @@
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1880;360</Property>
-            <Property name="Private.ZOrder">14</Property>
+            <Property name="Private.ZOrder">8</Property>
             <Property name="Private.ObjID">2</Property>
-            <Property name="Appearance.Size">64;110</Property>
+            <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
             <Property name="Private.ExportedParams"></Property>
             <Property name="Private.Selected">1</Property>
@@ -78,7 +78,7 @@
         </Properties>
         <Parameters>
           <Parameter catalog="kernel" class-id="string" description="File Name" design-time="1" enabled="1" group_index="0" id="file_name" name="FileName" run-time="1">
-            <Value>..\..\cora5_2_test_02.txt</Value>
+            <Value>..\pc_cora5test_02.txt</Value>
             <Domain/>
             <Layout catalog="kernel" class-id="filename">Text files (*.txt)|*.txt|All files (*.*)|*.*||saveMode</Layout>
             <InitInfo/>
@@ -90,7 +90,7 @@
             <InitInfo/>
           </Parameter>
           <Parameter catalog="kernel" class-id="int" description="Number of input to be saved. They can be non homogeneous type." design-time="1" enabled="1" group_index="0" id="n_input" name="InputNumber" run-time="0">
-            <Value>7</Value>
+            <Value>1</Value>
             <Domain/>
             <Layout/>
             <InitInfo/>
@@ -124,33 +124,15 @@
           <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_00" name="Input00" read-write="0" required_for_execution="1" required_for_initialization="1">
             <RequiredInterfaces/>
           </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_01" name="Input01" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_02" name="Input02" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_03" name="Input03" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_04" name="Input04" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_05" name="Input05" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-          <Input catalog="kernel" class-id="generic_datatype" description="Input 00." group_index="0" id="input_06" name="Input06" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
         </Inputs>
         <Outputs/>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="SIEMPRE" class-id="QualisysTSVReader" id="143" label="QualisysTSVReader_1" log_info="2" run_level="1" sync-in_mode="1">
+      <Block active="1" catalog="SIEMPRE" class-id="QualisysTSVReader" id="149" label="QualisysTSVReader_1" log_info="2" run_level="1" sync-in_mode="1">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1410;120</Property>
-            <Property name="Private.ZOrder">22</Property>
+            <Property name="Private.ZOrder">16</Property>
             <Property name="Private.ObjID">3</Property>
             <Property name="Appearance.Size">64;95</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -164,7 +146,7 @@
         </Properties>
         <Parameters>
           <Parameter catalog="kernel" class-id="string" description="File name" design-time="1" enabled="1" group_index="0" id="file_name" name="FileName" run-time="1">
-            <Value>elan_annotations(DATI TESI)\TesiMag-main\Dataset_and_Ground_Truth\tsv\Cora_0005.tsv</Value>
+            <Value>..\tesi\elan_annotations(DATI TESI)\TesiMag-main\Dataset_and_Ground_Truth\tsv\Cora_0005.tsv</Value>
             <Domain/>
             <Layout catalog="kernel" class-id="filename">TSV files (*.tsv)|*.tsv||</Layout>
             <InitInfo/>
@@ -211,11 +193,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="3D" class-id="SpaceGenerator" id="240" label="SpaceGenerator_3" log_info="2" run_level="1" sync-in_mode="0">
+      <Block active="1" catalog="3D" class-id="SpaceGenerator" id="246" label="SpaceGenerator_3" log_info="2" run_level="1" sync-in_mode="0">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">750;100</Property>
-            <Property name="Private.ZOrder">24</Property>
+            <Property name="Private.ZOrder">18</Property>
             <Property name="Private.ObjID">4</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -295,11 +277,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="3D" class-id="SpaceAddGeometricObjectDouble" id="305" label="SpaceAddGeometricObjectDouble_3" log_info="2" run_level="1" sync-in_mode="1">
+      <Block active="1" catalog="3D" class-id="SpaceAddGeometricObjectDouble" id="311" label="SpaceAddGeometricObjectDouble_3" log_info="2" run_level="1" sync-in_mode="1">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">900;150</Property>
-            <Property name="Private.ZOrder">25</Property>
+            <Property name="Private.ZOrder">19</Property>
             <Property name="Private.ObjID">5</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -520,11 +502,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="base" class-id="ExractGeometricLabelledSet3D-Double" id="430" label="ExtractFromGeometricLabelledSet3D-Double_12" log_info="2" run_level="1" sync-in_mode="1">
+      <Block active="1" catalog="base" class-id="ExractGeometricLabelledSet3D-Double" id="436" label="ExtractFromGeometricLabelledSet3D-Double_12" log_info="2" run_level="1" sync-in_mode="1">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">650;190</Property>
-            <Property name="Private.ZOrder">26</Property>
+            <Property name="Private.ZOrder">20</Property>
             <Property name="Private.ObjID">6</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -579,11 +561,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="3D" class-id="SpaceAddGeometricObjectDouble" id="491" label="SpaceAddGeometricObjectDouble_4" log_info="2" run_level="1" sync-in_mode="1">
+      <Block active="1" catalog="3D" class-id="SpaceAddGeometricObjectDouble" id="497" label="SpaceAddGeometricObjectDouble_4" log_info="2" run_level="1" sync-in_mode="1">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">950;260</Property>
-            <Property name="Private.ZOrder">28</Property>
+            <Property name="Private.ZOrder">22</Property>
             <Property name="Private.ObjID">7</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -804,11 +786,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="616" label="FilterGeometricLabelledSet3D-Double_6" log_info="2" run_level="1" sync-in_mode="1">
+      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="622" label="FilterGeometricLabelledSet3D-Double_6" log_info="2" run_level="1" sync-in_mode="1">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">750;350</Property>
-            <Property name="Private.ZOrder">29</Property>
+            <Property name="Private.ZOrder">23</Property>
             <Property name="Private.ObjID">8</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -862,11 +844,11 @@
         </Outputs>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="3D" class-id="GlDisplay" id="676" label="Display3D_5" log_info="2" run_level="1" sync-in_mode="1" window_docked="0" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="503" window_rect_y="220" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.77187499999999998">
+      <Block active="1" catalog="3D" class-id="GlDisplay" id="682" label="Display3D_5" log_info="2" run_level="1" sync-in_mode="1" window_docked="0" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="503" window_rect_y="220" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.77187499999999998">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1110;180</Property>
-            <Property name="Private.ZOrder">33</Property>
+            <Property name="Private.ZOrder">27</Property>
             <Property name="Private.ObjID">9</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -1020,11 +1002,11 @@
         <Outputs/>
         <PrivateData/>
       </Block>
-      <Block active="0" catalog="3D" class-id="GlDisplay" id="800" label="Display3D_3" log_info="2" run_level="1" sync-in_mode="1" window_docked="1" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="8" window_rect_y="24" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.074999999999999997">
+      <Block active="0" catalog="3D" class-id="GlDisplay" id="806" label="Display3D_3" log_info="2" run_level="1" sync-in_mode="1" window_docked="1" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="8" window_rect_y="24" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.074999999999999997">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1110;310</Property>
-            <Property name="Private.ZOrder">36</Property>
+            <Property name="Private.ZOrder">30</Property>
             <Property name="Private.ObjID">10</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -1178,11 +1160,11 @@
         <Outputs/>
         <PrivateData/>
       </Block>
-      <Block active="0" catalog="3D" class-id="GlDisplay" id="924" label="Display3D_6" log_info="2" run_level="1" sync-in_mode="1" window_docked="1" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="495" window_rect_y="25" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.074999999999999997">
+      <Block active="0" catalog="3D" class-id="GlDisplay" id="930" label="Display3D_6" log_info="2" run_level="1" sync-in_mode="1" window_docked="1" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="495" window_rect_y="25" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.074999999999999997">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1240;280</Property>
-            <Property name="Private.ZOrder">39</Property>
+            <Property name="Private.ZOrder">33</Property>
             <Property name="Private.ObjID">11</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -1336,11 +1318,11 @@
         <Outputs/>
         <PrivateData/>
       </Block>
-      <Block active="0" catalog="3D" class-id="GlDisplay" id="1048" label="Display3D_7" log_info="2" run_level="1" sync-in_mode="1" window_docked="0" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="1107" window_rect_y="336" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.77187499999999998">
+      <Block active="0" catalog="3D" class-id="GlDisplay" id="1054" label="Display3D_7" log_info="2" run_level="1" sync-in_mode="1" window_docked="0" window_fit_mode="1" window_full_screen="0" window_full_screen_monitor_index="0" window_horizontal_scroll_pos="0" window_keep_aspect_ratio="1" window_rect_height="661" window_rect_width="512" window_rect_x="1107" window_rect_y="336" window_refresh_rate_max_frequency="25" window_refresh_rate_min_interval="400000" window_refresh_rate_mode="0" window_title="Display3D" window_title_bar_visible="1" window_vertical_scroll_pos="0" window_zoom="0.77187499999999998">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Appearance.Pos">1240;400</Property>
-            <Property name="Private.ZOrder">40</Property>
+            <Property name="Private.ZOrder">34</Property>
             <Property name="Private.ObjID">12</Property>
             <Property name="Appearance.Size">64;64</Property>
             <Property name="Appearance.Orientation">1</Property>
@@ -1494,954 +1476,156 @@
         <Outputs/>
         <PrivateData/>
       </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987276" label="PointsDensity3D_2" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;190</Property>
-            <Property name="Private.ZOrder">50</Property>
-            <Property name="Private.ObjID">37</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987334" label="FilterGeometricLabelledSet3D-Double_7" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;190</Property>
-            <Property name="Private.ZOrder">51</Property>
-            <Property name="Private.ObjID">38</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>LFHD|RFHD|LBHD|RBHD|STRN</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987394" label="PointsDensity3D_3" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;310</Property>
-            <Property name="Private.ZOrder">58</Property>
-            <Property name="Private.ObjID">39</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987452" label="FilterGeometricLabelledSet3D-Double_8" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;310</Property>
-            <Property name="Private.ZOrder">59</Property>
-            <Property name="Private.ObjID">40</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>RSHO|RELB|RPLM|RFWT</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987512" label="PointsDensity3D_4" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;430</Property>
-            <Property name="Private.ZOrder">66</Property>
-            <Property name="Private.ObjID">41</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987570" label="FilterGeometricLabelledSet3D-Double_9" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;430</Property>
-            <Property name="Private.ZOrder">67</Property>
-            <Property name="Private.ObjID">42</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>LSHO|LELB|LPLM|LFWT</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987630" label="PointsDensity3D_5" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;550</Property>
-            <Property name="Private.ZOrder">74</Property>
-            <Property name="Private.ObjID">43</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987688" label="FilterGeometricLabelledSet3D-Double_10" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;550</Property>
-            <Property name="Private.ZOrder">75</Property>
-            <Property name="Private.ObjID">44</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>LFWT|RFWT|RKNE|RHEL</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987748" label="PointsDensity3D_6" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;670</Property>
-            <Property name="Private.ZOrder">82</Property>
-            <Property name="Private.ObjID">45</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987806" label="FilterGeometricLabelledSet3D-Double_11" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;670</Property>
-            <Property name="Private.ZOrder">83</Property>
-            <Property name="Private.ObjID">46</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>LFWT|RFWT|LKNE|LHEL</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="EywGP" class-id="PointsDensity3D" id="106987866" label="PointsDensity3D_7" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2270;790</Property>
-            <Property name="Private.ZOrder">90</Property>
-            <Property name="Private.ObjID">47</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;ParameterCentroidType;ParameterDistanceType;ParameterDistanceDim</Property>
-            <Property name="Private.FullPath">PointsDensity3D (Geometric.Operations.3D)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the points centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterCentroidType" name="Centroid Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is computed." design-time="1" enabled="1" group_index="0" id="ParameterDistanceType" name="Distance Type of Computation" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;4;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Median;Mean;Max;Sum Of Lenghts</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="You can select how the distance between each point of the set and the centroid is." design-time="1" enabled="1" group_index="0" id="ParameterDistanceDim" name="Distance dimension of Computation" run-time="0">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">Component;Module</Layout>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="A labelled set containing the 3D geometric points on which the block computes cinematic energy." group_index="0" id="InputGeometricLabelledSet" name="Input geometric labelled set of 3D geometric points" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="kernel" class-id="double" description="The Points Density Index represents the dispersion of a set of 3D points respect to the median point." group_index="0" id="OutputPointsDensityIndex" inherited-id="" inplace-id="" name="Points Density Index"/>
-          <Output catalog="base" class-id="base_geometric_point_3d_double" description="This is centroid of the input set of 3D geometric points." group_index="0" id="OutputCentroid" inherited-id="" inplace-id="" name="Centroid"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
-      <Block active="1" catalog="base" class-id="FilterGeometricLabelledSet3D-Double" id="106987924" label="FilterGeometricLabelledSet3D-Double_12" log_info="2" run_level="1" sync-in_mode="1">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Appearance.Pos">2190;790</Property>
-            <Property name="Private.ZOrder">91</Property>
-            <Property name="Private.ObjID">48</Property>
-            <Property name="Appearance.Size">64;64</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Private.ExportedParams"></Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ParamsOrder">kernel::active_status;kernel::active_trigger;kernel::run_level;kernel::sync_in_mode;kernel::log_level;Extraction;ClassPAr;Catalog;Class;Label</Property>
-            <Property name="Private.FullPath">FilterGeometricLabelledSet3D-Double (DataStructures.LabelledSet)</Property>
-            <Property name="DisplaySyncInVisible">0</Property>
-            <Property name="DisplaySyncOutVisible">0</Property>
-          </PropertySet>
-        </Properties>
-        <Parameters>
-          <Parameter catalog="kernel" class-id="int" description="It's possible to extract a subset of input, filtering by datatype or filtering by label." design-time="1" enabled="1" group_index="0" id="Extraction" name="Extraction type" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;2;2</Domain>
-            <Layout catalog="kernel" class-id="combo">By Type;By Label</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="int" description="Datatype contained in the input geometric labelled set. " design-time="1" enabled="1" group_index="0" id="ClassPAr" name="Datatype" run-time="1">
-            <Value>1</Value>
-            <Domain catalog="kernel" class-id="int-domain">0;1;8;2</Domain>
-            <Layout catalog="kernel" class-id="combo">base_geometric_ellipse_3d_double;base_geometric_labelled_set_3d_double;base_geometric_line_3d_double;base_geometric_point_3d_double;base_geometric_rectangle_3d_double;base_geometric_size_3d_double;base_geometric_triangle_3d_double;DoubleGeometricTrajectory3D</Layout>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected catalog id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Catalog" name="Catalog" run-time="0">
-            <Value>base</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Read only parameter. It's the selected class id from 'Datatype' parameter." design-time="0" enabled="1" group_index="0" id="Class" name="Class" run-time="0">
-            <Value>base_geometric_labelled_set_3d_double</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-          <Parameter catalog="kernel" class-id="string" description="Label (use regular expression syntax in Perl syntax: http://www.boost.org/libs/regex/doc/syntax_perl.html#Perl). For example, .* pattern matches any number of characters, thus behaving similarly to the * pattern.So if you need to find objects with label starting with 'point' substring, you can write (point).* nstead, if you need to find objects with label containing 'point' substring, you can write .*(point).* " design-time="1" enabled="1" group_index="0" id="Label" name="Label" run-time="1">
-            <Value>STRN|LFWT|RFWT|LKNE|RKNE|LHEL|RHEL</Value>
-            <Domain/>
-            <Layout/>
-            <InitInfo/>
-          </Parameter>
-        </Parameters>
-        <Inputs>
-          <Input catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Input geometric labelled set 3D. This is a non homogeneous list of 3d geomteric object." group_index="0" id="input_labeled_set" name="InputGeometricLabelledSet3D" read-write="0" required_for_execution="1" required_for_initialization="1">
-            <RequiredInterfaces/>
-          </Input>
-        </Inputs>
-        <Outputs>
-          <Output catalog="base" class-id="base_geometric_labelled_set_3d_double" description="Output geometric  labelled set of homogeneous 3d geometric object." group_index="0" id="output_labeled_set" inherited-id="" inplace-id="" name="OutputGeometricLabelledSet3D"/>
-        </Outputs>
-        <PrivateData/>
-      </Block>
     </Blocks>
     <PatchPins>
-      <PatchPin id="1172" name="Density">
+      <PatchPin id="1886" name="Density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1820;210</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">19</Property>
-            <Property name="Private.ObjID">13</Property>
+            <Property name="Private.ZOrder">13</Property>
+            <Property name="Private.ObjID">25</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">72; 0; 72</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="1173" name="Tsv">
+      <PatchPin id="1887" name="Tsv">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1660;210</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">16</Property>
-            <Property name="Private.ObjID">14</Property>
+            <Property name="Private.ZOrder">10</Property>
+            <Property name="Private.ObjID">26</Property>
             <Property name="Appearance.Orientation">3</Property>
             <Property name="Appearance.Size">43;50</Property>
             <Property name="Appearance.FillColor">255; 192; 203</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="1174" name="Density">
+      <PatchPin id="1888" name="Density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;360</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">13</Property>
-            <Property name="Private.ObjID">15</Property>
+            <Property name="Private.ZOrder">7</Property>
+            <Property name="Private.ObjID">27</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">72; 0; 72</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="1175" name="Tsv">
+      <PatchPin id="1889" name="Tsv">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;160</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">21</Property>
-            <Property name="Private.ObjID">16</Property>
+            <Property name="Private.ZOrder">15</Property>
+            <Property name="Private.ObjID">28</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 192; 203</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="1176" name="Tsv">
+      <PatchPin id="1890" name="Tsv">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">550;350</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">27</Property>
-            <Property name="Private.ObjID">17</Property>
+            <Property name="Private.ZOrder">21</Property>
+            <Property name="Private.ObjID">29</Property>
             <Property name="Appearance.Orientation">3</Property>
             <Property name="Appearance.Size">32;50</Property>
             <Property name="Appearance.FillColor">255; 192; 203</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106987984" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;190</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">48</Property>
-            <Property name="Private.ObjID">49</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987985" name="head_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;190</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">54</Property>
-            <Property name="Private.ObjID">50</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987986" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;310</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">56</Property>
-            <Property name="Private.ObjID">51</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987987" name="righthand_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;310</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">62</Property>
-            <Property name="Private.ObjID">52</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987988" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;430</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">64</Property>
-            <Property name="Private.ObjID">53</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987989" name="lefthand_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;430</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">70</Property>
-            <Property name="Private.ObjID">54</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987990" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;550</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">72</Property>
-            <Property name="Private.ObjID">55</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987991" name="rightleg_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;550</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">78</Property>
-            <Property name="Private.ObjID">56</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987992" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;670</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">80</Property>
-            <Property name="Private.ObjID">57</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987993" name="leftleg_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;670</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">86</Property>
-            <Property name="Private.ObjID">58</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987994" name="Tsv">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2130;790</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">88</Property>
-            <Property name="Private.ObjID">59</Property>
-            <Property name="Appearance.Orientation">3</Property>
-            <Property name="Appearance.Size">32;50</Property>
-            <Property name="Appearance.FillColor">255; 192; 203</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106987995" name="crouch_density">
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">PatchPin</Property>
-            <Property name="Appearance.Pos">2360;790</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">94</Property>
-            <Property name="Private.ObjID">60</Property>
-            <Property name="Appearance.Orientation">2</Property>
-            <Property name="Appearance.Size">64;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-          </PropertySet>
-        </Properties>
-      </PatchPin>
-      <PatchPin id="106988032" name="head_density">
+      <PatchPin id="1903" name="head_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;400</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">11</Property>
-            <Property name="Private.ObjID">85</Property>
+            <Property name="Private.ZOrder">5</Property>
+            <Property name="Private.ObjID">42</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106988036" name="righthand_density">
+      <PatchPin id="1904" name="righthand_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;440</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">10</Property>
-            <Property name="Private.ObjID">86</Property>
+            <Property name="Private.ZOrder">4</Property>
+            <Property name="Private.ObjID">43</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106988040" name="lefthand_density">
+      <PatchPin id="1905" name="lefthand_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;480</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">9</Property>
-            <Property name="Private.ObjID">87</Property>
+            <Property name="Private.ZOrder">3</Property>
+            <Property name="Private.ObjID">44</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106988044" name="rightleg_density">
+      <PatchPin id="1906" name="rightleg_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;520</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">8</Property>
-            <Property name="Private.ObjID">88</Property>
+            <Property name="Private.ZOrder">2</Property>
+            <Property name="Private.ObjID">45</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106988048" name="leftleg_density">
+      <PatchPin id="1907" name="leftleg_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;560</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">7</Property>
-            <Property name="Private.ObjID">89</Property>
+            <Property name="Private.ZOrder">1</Property>
+            <Property name="Private.ObjID">46</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
           </PropertySet>
         </Properties>
       </PatchPin>
-      <PatchPin id="106988052" name="crouch_density">
+      <PatchPin id="151234445" name="crouch_density">
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="GuiObjectType">PatchPin</Property>
             <Property name="Appearance.Pos">1530;600</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">6</Property>
-            <Property name="Private.ObjID">90</Property>
+            <Property name="Private.ZOrder">0</Property>
+            <Property name="Private.ObjID">47</Property>
             <Property name="Appearance.Orientation">2</Property>
             <Property name="Appearance.Size">64;32</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
@@ -2456,8 +1640,8 @@
             <Property name="GuiObjectType">Label</Property>
             <Property name="Appearance.Pos">1710;140</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">17</Property>
-            <Property name="Private.ObjID">36</Property>
+            <Property name="Private.ZOrder">11</Property>
+            <Property name="Private.ObjID">90</Property>
             <Property name="Appearance.Orientation">1</Property>
             <Property name="Appearance.Size">166;60</Property>
             <Property name="Appearance.FillColor">255; 255; 255</Property>
@@ -2473,149 +1657,11 @@
           </PropertySet>
         </Properties>
       </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;150</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">49</Property>
-            <Property name="Private.ObjID">79</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">160;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">lfhd, rfhd, lbhd, rbhd, strn</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;270</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">57</Property>
-            <Property name="Private.ObjID">80</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">160;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">rsho, relb,rplm,rfwt</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;390</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">65</Property>
-            <Property name="Private.ObjID">81</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">160;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">lsho,lelb,lplm,lfwt</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;510</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">73</Property>
-            <Property name="Private.ObjID">82</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">160;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">lfwt, rfwt, rkne, rhel</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;630</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">81</Property>
-            <Property name="Private.ObjID">83</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">160;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">lfwt, rfwt, lkne, lhel</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
-      <CustomObject>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="GuiObjectType">Label</Property>
-            <Property name="Appearance.Pos">2180;750</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">89</Property>
-            <Property name="Private.ObjID">84</Property>
-            <Property name="Appearance.Orientation">1</Property>
-            <Property name="Appearance.Size">190;32</Property>
-            <Property name="Appearance.FillColor">255; 255; 255</Property>
-            <Property name="Appearance.Transparent">1</Property>
-            <Property name="Appearance.BorderColor">60; 179; 113</Property>
-            <Property name="Appearance.BorderSize">5</Property>
-            <Property name="Appearance.Text">strn,lfwt,rfwt,lkne,rkne,lhel,rhel</Property>
-            <Property name="Appearance.Margins">5;5</Property>
-            <Property name="Appearance.Font">MS Shell Dlg; 7.8; </Property>
-            <Property name="Appearance.FontColor">0; 0; 0</Property>
-            <Property name="Appearance.HorzAlign">0</Property>
-            <Property name="Appearance.VertAlign">0</Property>
-          </PropertySet>
-        </Properties>
-      </CustomObject>
     </CustomObjects>
     <Links>
       <Link>
         <Pin block="20" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="1172" type="target"/>
+        <Pin patchpin="1886" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2624,13 +1670,13 @@
             <Property name="Private.DstPinNdx">0</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">18</Property>
-            <Property name="Private.ObjID">18</Property>
+            <Property name="Private.ZOrder">12</Property>
+            <Property name="Private.ObjID">48</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin patchpin="1173" type="source"/>
+        <Pin patchpin="1887" type="source"/>
         <Pin block="20" id="InputGeometricLabelledSet" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
@@ -2640,30 +1686,30 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">15</Property>
-            <Property name="Private.ObjID">19</Property>
+            <Property name="Private.ZOrder">9</Property>
+            <Property name="Private.ObjID">49</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="143" id="output_labelled_set" type="source"/>
-        <Pin patchpin="1175" type="target"/>
+        <Pin block="149" id="output_labelled_set" type="source"/>
+        <Pin patchpin="1889" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
             <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;-2.5</Property>
+            <Property name="Private.DstPinDelta">-26;-2.5</Property>
             <Property name="Private.DstPinNdx">0</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">23</Property>
-            <Property name="Private.ObjID">21</Property>
+            <Property name="Private.ZOrder">17</Property>
+            <Property name="Private.ObjID">50</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="616" id="output_labeled_set" type="source"/>
-        <Pin block="491" id="3d_geometric_input" target_type="input" type="target"/>
+        <Pin block="622" id="output_labeled_set" type="source"/>
+        <Pin block="497" id="3d_geometric_input" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2672,14 +1718,14 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">30</Property>
-            <Property name="Private.ObjID">22</Property>
+            <Property name="Private.ZOrder">24</Property>
+            <Property name="Private.ObjID">51</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="240" id="OutputSpace" type="source"/>
-        <Pin block="305" id="InputSpace" target_type="input" type="target"/>
+        <Pin block="246" id="OutputSpace" type="source"/>
+        <Pin block="311" id="InputSpace" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2688,14 +1734,14 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">31</Property>
-            <Property name="Private.ObjID">23</Property>
+            <Property name="Private.ZOrder">25</Property>
+            <Property name="Private.ObjID">52</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="305" id="OutputSpace" type="source"/>
-        <Pin block="491" id="InputSpace" target_type="input" type="target"/>
+        <Pin block="311" id="OutputSpace" type="source"/>
+        <Pin block="497" id="InputSpace" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2704,14 +1750,14 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">32</Property>
-            <Property name="Private.ObjID">24</Property>
+            <Property name="Private.ZOrder">26</Property>
+            <Property name="Private.ObjID">53</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="491" id="OutputSpace" type="source"/>
-        <Pin block="676" id="InputSpace" target_type="input" type="target"/>
+        <Pin block="497" id="OutputSpace" type="source"/>
+        <Pin block="682" id="InputSpace" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2721,14 +1767,62 @@
             <Property name="Private.NumPins">1</Property>
             <Property name="Private.Pin_0">1080;230</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">34</Property>
-            <Property name="Private.ObjID">25</Property>
+            <Property name="Private.ZOrder">28</Property>
+            <Property name="Private.ObjID">54</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="430" id="output_value" type="source"/>
-        <Pin block="676" id="ViewTarget" target_type="parameter" type="target"/>
+        <Pin block="436" id="output_value" type="source"/>
+        <Pin block="682" id="ViewTarget" target_type="parameter" type="target"/>
+        <Properties>
+          <PropertySet name="gui-mdi">
+            <Property name="Private.SrcPinDelta">0;0</Property>
+            <Property name="Private.SrcPinNdx">-1</Property>
+            <Property name="Private.DstPinDelta">0;0</Property>
+            <Property name="Private.DstPinNdx">-1</Property>
+            <Property name="Private.NumPins">0</Property>
+            <Property name="Private.Selected">0</Property>
+            <Property name="Private.ZOrder">29</Property>
+            <Property name="Private.ObjID">55</Property>
+          </PropertySet>
+        </Properties>
+      </Link>
+      <Link>
+        <Pin block="497" id="OutputSpace" type="source"/>
+        <Pin block="806" id="InputSpace" target_type="input" type="target"/>
+        <Properties>
+          <PropertySet name="gui-mdi">
+            <Property name="Private.SrcPinDelta">0;0</Property>
+            <Property name="Private.SrcPinNdx">-1</Property>
+            <Property name="Private.DstPinDelta">0;0</Property>
+            <Property name="Private.DstPinNdx">-1</Property>
+            <Property name="Private.NumPins">0</Property>
+            <Property name="Private.Selected">0</Property>
+            <Property name="Private.ZOrder">31</Property>
+            <Property name="Private.ObjID">56</Property>
+          </PropertySet>
+        </Properties>
+      </Link>
+      <Link>
+        <Pin block="436" id="output_value" type="source"/>
+        <Pin block="806" id="ViewTarget" target_type="parameter" type="target"/>
+        <Properties>
+          <PropertySet name="gui-mdi">
+            <Property name="Private.SrcPinDelta">0;0</Property>
+            <Property name="Private.SrcPinNdx">-1</Property>
+            <Property name="Private.DstPinDelta">0;0</Property>
+            <Property name="Private.DstPinNdx">-1</Property>
+            <Property name="Private.NumPins">0</Property>
+            <Property name="Private.Selected">0</Property>
+            <Property name="Private.ZOrder">32</Property>
+            <Property name="Private.ObjID">57</Property>
+          </PropertySet>
+        </Properties>
+      </Link>
+      <Link>
+        <Pin block="497" id="OutputSpace" type="source"/>
+        <Pin block="1054" id="InputSpace" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2738,13 +1832,29 @@
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
             <Property name="Private.ZOrder">35</Property>
-            <Property name="Private.ObjID">26</Property>
+            <Property name="Private.ObjID">58</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="491" id="OutputSpace" type="source"/>
-        <Pin block="800" id="InputSpace" target_type="input" type="target"/>
+        <Pin block="497" id="OutputSpace" type="source"/>
+        <Pin block="930" id="InputSpace" target_type="input" type="target"/>
+        <Properties>
+          <PropertySet name="gui-mdi">
+            <Property name="Private.SrcPinDelta">0;0</Property>
+            <Property name="Private.SrcPinNdx">-1</Property>
+            <Property name="Private.DstPinDelta">0;0</Property>
+            <Property name="Private.DstPinNdx">-1</Property>
+            <Property name="Private.NumPins">0</Property>
+            <Property name="Private.Selected">0</Property>
+            <Property name="Private.ZOrder">36</Property>
+            <Property name="Private.ObjID">59</Property>
+          </PropertySet>
+        </Properties>
+      </Link>
+      <Link>
+        <Pin block="436" id="output_value" type="source"/>
+        <Pin block="930" id="ViewTarget" target_type="parameter" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2754,13 +1864,13 @@
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
             <Property name="Private.ZOrder">37</Property>
-            <Property name="Private.ObjID">27</Property>
+            <Property name="Private.ObjID">60</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="430" id="output_value" type="source"/>
-        <Pin block="800" id="ViewTarget" target_type="parameter" type="target"/>
+        <Pin block="436" id="output_value" type="source"/>
+        <Pin block="1054" id="ViewTarget" target_type="parameter" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">0;0</Property>
@@ -2770,77 +1880,13 @@
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
             <Property name="Private.ZOrder">38</Property>
-            <Property name="Private.ObjID">28</Property>
+            <Property name="Private.ObjID">61</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="491" id="OutputSpace" type="source"/>
-        <Pin block="1048" id="InputSpace" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">41</Property>
-            <Property name="Private.ObjID">29</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="491" id="OutputSpace" type="source"/>
-        <Pin block="924" id="InputSpace" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">42</Property>
-            <Property name="Private.ObjID">30</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="430" id="output_value" type="source"/>
-        <Pin block="924" id="ViewTarget" target_type="parameter" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">43</Property>
-            <Property name="Private.ObjID">31</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="430" id="output_value" type="source"/>
-        <Pin block="1048" id="ViewTarget" target_type="parameter" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">44</Property>
-            <Property name="Private.ObjID">32</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="1176" type="source"/>
-        <Pin block="430" id="input_labeled_set" target_type="input" type="target"/>
+        <Pin patchpin="1890" type="source"/>
+        <Pin block="436" id="input_labeled_set" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">-2.5;9</Property>
@@ -2849,14 +1895,14 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">45</Property>
-            <Property name="Private.ObjID">33</Property>
+            <Property name="Private.ZOrder">39</Property>
+            <Property name="Private.ObjID">62</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin patchpin="1176" type="source"/>
-        <Pin block="616" id="input_labeled_set" target_type="input" type="target"/>
+        <Pin patchpin="1890" type="source"/>
+        <Pin block="622" id="input_labeled_set" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">-2.5;9</Property>
@@ -2865,14 +1911,14 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">46</Property>
-            <Property name="Private.ObjID">34</Property>
+            <Property name="Private.ZOrder">40</Property>
+            <Property name="Private.ObjID">63</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin patchpin="1176" type="source"/>
-        <Pin block="305" id="3d_geometric_input" target_type="input" type="target"/>
+        <Pin patchpin="1890" type="source"/>
+        <Pin block="311" id="3d_geometric_input" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
             <Property name="Private.SrcPinDelta">-2.5;-3</Property>
@@ -2881,301 +1927,13 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">47</Property>
-            <Property name="Private.ObjID">35</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987984" type="source"/>
-        <Pin block="106987334" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">52</Property>
-            <Property name="Private.ObjID">61</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987334" id="output_labeled_set" type="source"/>
-        <Pin block="106987276" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">53</Property>
-            <Property name="Private.ObjID">62</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987276" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987985" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">55</Property>
-            <Property name="Private.ObjID">63</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987986" type="source"/>
-        <Pin block="106987452" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">60</Property>
+            <Property name="Private.ZOrder">41</Property>
             <Property name="Private.ObjID">64</Property>
           </PropertySet>
         </Properties>
       </Link>
       <Link>
-        <Pin block="106987452" id="output_labeled_set" type="source"/>
-        <Pin block="106987394" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">61</Property>
-            <Property name="Private.ObjID">65</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987394" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987987" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">63</Property>
-            <Property name="Private.ObjID">66</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987988" type="source"/>
-        <Pin block="106987570" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">68</Property>
-            <Property name="Private.ObjID">67</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987570" id="output_labeled_set" type="source"/>
-        <Pin block="106987512" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">69</Property>
-            <Property name="Private.ObjID">68</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987512" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987989" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">71</Property>
-            <Property name="Private.ObjID">69</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987990" type="source"/>
-        <Pin block="106987688" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">76</Property>
-            <Property name="Private.ObjID">70</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987688" id="output_labeled_set" type="source"/>
-        <Pin block="106987630" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">77</Property>
-            <Property name="Private.ObjID">71</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987630" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987991" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">79</Property>
-            <Property name="Private.ObjID">72</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987992" type="source"/>
-        <Pin block="106987806" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">84</Property>
-            <Property name="Private.ObjID">73</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987806" id="output_labeled_set" type="source"/>
-        <Pin block="106987748" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">85</Property>
-            <Property name="Private.ObjID">74</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987748" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987993" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">87</Property>
-            <Property name="Private.ObjID">75</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106987994" type="source"/>
-        <Pin block="106987924" id="input_labeled_set" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0.5;-5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">92</Property>
-            <Property name="Private.ObjID">76</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987924" id="output_labeled_set" type="source"/>
-        <Pin block="106987866" id="InputGeometricLabelledSet" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">93</Property>
-            <Property name="Private.ObjID">77</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin block="106987866" id="OutputPointsDensityIndex" type="source"/>
-        <Pin patchpin="106987995" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">0;0</Property>
-            <Property name="Private.SrcPinNdx">-1</Property>
-            <Property name="Private.DstPinDelta">-22;0.5</Property>
-            <Property name="Private.DstPinNdx">1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">95</Property>
-            <Property name="Private.ObjID">78</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="1174" type="source"/>
+        <Pin patchpin="1888" type="source"/>
         <Pin block="78" id="input_00" target_type="input" type="target"/>
         <Properties>
           <PropertySet name="gui-mdi">
@@ -3185,104 +1943,8 @@
             <Property name="Private.DstPinNdx">-1</Property>
             <Property name="Private.NumPins">0</Property>
             <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">12</Property>
-            <Property name="Private.ObjID">20</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988032" type="source"/>
-        <Pin block="78" id="input_01" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">26;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">5</Property>
-            <Property name="Private.ObjID">91</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988036" type="source"/>
-        <Pin block="78" id="input_02" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">8;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">4</Property>
-            <Property name="Private.ObjID">92</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988040" type="source"/>
-        <Pin block="78" id="input_03" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">18;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">3</Property>
-            <Property name="Private.ObjID">93</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988044" type="source"/>
-        <Pin block="78" id="input_04" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">18;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">2</Property>
-            <Property name="Private.ObjID">94</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988048" type="source"/>
-        <Pin block="78" id="input_05" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">18;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">1</Property>
-            <Property name="Private.ObjID">95</Property>
-          </PropertySet>
-        </Properties>
-      </Link>
-      <Link>
-        <Pin patchpin="106988052" type="source"/>
-        <Pin block="78" id="input_06" target_type="input" type="target"/>
-        <Properties>
-          <PropertySet name="gui-mdi">
-            <Property name="Private.SrcPinDelta">18;-2.5</Property>
-            <Property name="Private.SrcPinNdx">0</Property>
-            <Property name="Private.DstPinDelta">0;0</Property>
-            <Property name="Private.DstPinNdx">-1</Property>
-            <Property name="Private.NumPins">0</Property>
-            <Property name="Private.Selected">0</Property>
-            <Property name="Private.ZOrder">0</Property>
-            <Property name="Private.ObjID">96</Property>
+            <Property name="Private.ZOrder">6</Property>
+            <Property name="Private.ObjID">83</Property>
           </PropertySet>
         </Properties>
       </Link>
