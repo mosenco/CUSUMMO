@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
 from dtaidistance import dtw,similarity
 from scipy.stats import pearsonr
-import array
+from sklearn.model_selection import ParameterGrid
 
 from claspy.segmentation import BinaryClaSPSegmentation
 
