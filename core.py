@@ -37,6 +37,214 @@ from claspy.tests.evaluation import f_measure,covering
 
 from claspy.window_size import dominant_fourier_frequency, highest_autocorrelation, suss
 
+"""
+Extracted features. Use the index of this list to use with iloc[]
+
+0. Kinetic Global
+1. Kinetic Chest
+2. Directness Head
+3. Density
+4. left wrist ke
+5. right wrist ke
+6. left ankle ke
+7. right ankle ke
+8. head ke
+9. crouch density
+10. left leg density
+11. right leg density
+12. left hand density
+13. right hand density
+14. head density
+15. arto inferiore
+16. gamba
+17. coscia
+18. coscia dx
+19. coscia sx
+20. gamba sx
+21. gamba dx
+22. braccio sx
+23. braccio dx
+24. avambraccio sx
+25. avambraccio dx
+26. ARIEL speed magnitude
+27. ARIEL speed X component
+28. ARIEL speed Y component
+29. ARIEL speed Z component
+30. ARIEL acceleration magnitude
+31. ARIEL acceleration X component
+32. ARIEL acceleration Y component
+33. ARIEL acceleration Z component
+34. ARIEL jerk magnitude
+35. ARIEL jerk X component
+36. ARIEL jerk Y component
+37. ARIEL jerk Z component
+38. STRN speed magnitude
+39. STRN speed X component
+40. STRN speed Y component
+41. STRN speed Z component
+42. STRN acceleration magnitude
+43. STRN acceleration X component
+44. STRN acceleration Y component
+45. STRN accelerationZ component
+46. STRN jerk magnitude
+47. STRN jerk X component
+48. STRN jerk Y component
+49. STRN jerk Z component
+50. RHEL speed magnitude
+51. RHEL speed X component
+52. RHEL speed Y component
+53. RHEL speed Z component
+54. RHEL acceleration magnitude
+55. RHEL acceleration X component
+56. RHEL acceleration Y component
+57. RHEL acceleration Z component
+58. RHEL jerk magnitude
+59. RHEL jerk X component
+60. RHEL jerk Y component
+61. RHEL jerk Z component
+62. LHEL speed magnitude
+63. LHEL speed X component
+64. LHEL speed Y component
+65. LHEL speed Z component
+66. LHEL acceleration magnitude
+67. LHEL acceleration X component
+68. LHEL acceleration Y component
+69. LHEL acceleration Z component
+70. LHEL jerk magnitude
+71. LHEL jerk X component
+72. LHEL jerk Y component
+73. LHEL jerk Z component
+74. RPLM speed magnitude
+75. RPLM speed X component
+76. RPLM speed Y component
+77. RPLM speed Z component
+78. RPLM acceleration magnitude
+79. RPLM acceleration X component
+80. RPLM acceleration Y component
+81. RPLM acceleration Z component
+82. RPLM jerk magnitude
+83. RPLM jerk X component
+84. RPLM jerk Y component
+85. RPLM jerk Z component
+86. LPLM speed magnitude
+87. LPLM speed X component
+88. LPLM speed Y component
+89. LPLM speed Z component
+90. LPLM acceleration magnitude
+91. LPLM acceleration X component
+92. LPLM acceleration Y component
+93. LPLM acceleration Z component
+94. LPLM jerk magnitude
+95. LPLM jerk X component
+96. LPLM jerk Y component
+97. LPLM jerk Z component
+
+
+
+
+
+"""
+# list of features. To access its name or its value while using iloc
+features_name=[
+    "kinetic_global",
+    "kinetic_chest",
+    "directness_head",
+    "density",
+    "left_wrist_ke",
+    "right_wrist_ke",
+    "left_ankle_ke",
+    "right_ankle_ke",
+    "head_ke",
+    "crouch_density",
+    "left_leg_density",
+    "right_leg_density",
+    "left_hand_density",
+    "right_hand_density",
+    "head_density",
+    "arto_inferiore",
+    "gamba",
+    "coscia",
+    "coscia_dx",
+    "coscia_sx",
+    "gamba_sx",
+    "gamba_dx",
+    "braccio_sx",
+    "braccio_dx",
+    "avambraccio_sx",
+    "avambraccio_dx",
+    "ARIEL_speed_magnitude",
+    "ARIEL_speed_X_component",
+    "ARIEL_speed_Y_component",
+    "ARIEL_speed_Z_component",
+    "ARIEL_acceleration_magnitude",
+    "ARIEL_acceleration_X_component",
+    "ARIEL_acceleration_Y_component",
+    "ARIEL_acceleration_Z_component",
+    "ARIEL_jerk_magnitude",
+    "ARIEL_jerk_X_component",
+    "ARIEL_jerk_Y_component",
+    "ARIEL_jerk_Z_component",
+    "STRN_speed_magnitude",
+    "STRN_speed_X_component",
+    "STRN_speed_Y_component",
+    "STRN_speed_Z_component",
+    "STRN_acceleration_magnitude",
+    "STRN_acceleration_X_component",
+    "STRN_acceleration_Y_component",
+    "STRN_acceleration_Z_component",
+    "STRN_jerk_magnitude",
+    "STRN_jerk_X_component",
+    "STRN_jerk_Y_component",
+    "STRN_jerk_Z_component",
+    "RHEL_speed_magnitude",
+    "RHEL_speed_X_component",
+    "RHEL_speed_Y_component",
+    "RHEL_speed_Z_component",
+    "RHEL_acceleration_magnitude",
+    "RHEL_acceleration_X_component",
+    "RHEL_acceleration_Y_component",
+    "RHEL_acceleration_Z_component",
+    "RHEL_jerk_magnitude",
+    "RHEL_jerk_X_component",
+    "RHEL_jerk_Y_component",
+    "RHEL_jerk_Z_component",
+    "LHEL_speed_magnitude",
+    "LHEL_speed_X_component",
+    "LHEL_speed_Y_component",
+    "LHEL_speed_Z_component",
+    "LHEL_acceleration_magnitude",
+    "LHEL_acceleration_X_component",
+    "LHEL_acceleration_Y_component",
+    "LHEL_acceleration_Z_component",
+    "LHEL_jerk_magnitude",
+    "LHEL_jerk_X_component",
+    "LHEL_jerk_Y_component",
+    "LHEL_jerk_Z_component",
+    "RPLM_speed_magnitude",
+    "RPLM_speed_X_component",
+    "RPLM_speed_Y_component",
+    "RPLM_speed_Z_component",
+    "RPLM_acceleration_magnitude",
+    "RPLM_acceleration_X_component",
+    "RPLM_acceleration_Y_component",
+    "RPLM_acceleration_Z_component",
+    "RPLM_jerk_magnitude",
+    "RPLM_jerk_X_component",
+    "RPLM_jerk_Y_component",
+    "RPLM_jerk_Z_component",
+    "LPLM_speed_magnitude",
+    "LPLM_speed_X_component",
+    "LPLM_speed_Y_component",
+    "LPLM_speed_Z_component",
+    "LPLM_acceleration_magnitude",
+    "LPLM_acceleration_X_component",
+    "LPLM_acceleration_Y_component",
+    "LPLM_acceleration_Z_component",
+    "LPLM_jerk_magnitude",
+    "LPLM_jerk_X_component",
+    "LPLM_jerk_Y_component",
+    "LPLM_jerk_Z_component",
+]
 
 TIMESERIES=[
     "in\cora1_in.txt",
@@ -722,6 +930,9 @@ def UnionCPS(*val):
     return np.sort(res)
 
 
+
+
+"""
 # esperimento dove prima combino i componenti x,y,z con il loro modulo
 # poi essi vengono presi e combinati con le feature rimanenti
 
@@ -874,3 +1085,5 @@ def Together(cpsl,dtwfilter):
 
 
 #resexcel.to_excel("outputFile/together_FPremoverDTW_before_normalized_standardized.xlsx")
+
+"""
