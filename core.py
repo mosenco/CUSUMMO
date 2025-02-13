@@ -814,8 +814,8 @@ def FPremoverDTW(featureTS,res,threshold):
                 smalllo=halflo
                 highlo=slidewin
 
-            st+=30
-            en+=30
+            st+=1
+            en+=1
             #print(f'en:{en} lim:{len(halfhi)} dist:{distance}')
         
         #plt.figure(figsize=(18,9))
