@@ -10,6 +10,7 @@ from sklearn.preprocessing import MinMaxScaler
 from dtaidistance import dtw,similarity
 from scipy.stats import pearsonr
 from sklearn.model_selection import ParameterGrid
+import statistics
 
 from claspy.segmentation import BinaryClaSPSegmentation
 
