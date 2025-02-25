@@ -546,7 +546,7 @@ def GetClasp(df,gt,known, **kwargs):
 def PlotResult(df,gt,cp, nomeFile, margin,clasplist,ts):
     #da testare quando ho piu valori
     #clasp.plot(gt_cps=gt.astype(int), heading="Segmentation of different umpire cricket signals", ts_name="ACC", file_path="segmentation_example.png")
-    
+    print("asd")
     # from f1scoremargin i extract the score,TP and FP
     precision,recall,f1,score,TP,FP=f1scoremargin(gt.astype(int),np.array(cp).astype(int),margin)
     
@@ -566,21 +566,22 @@ def PlotResult(df,gt,cp, nomeFile, margin,clasplist,ts):
     plt.plot(np.arange(len(df.iloc[:,ts].values)),df.iloc[:,ts].values,'black',linewidth=0.5)
     #for j in cp.tolist():
     for j in FP:
-        plt.axvline(x = j, color = 'red',linewidth=1,linestyle="-.",alpha=0.5)
+        plt.axvline(x = j, color = 'black',linewidth=1,linestyle="-.",alpha=0.5)
     for j in TP:
         
-        plt.axvline(x = j, color = 'blue',linewidth=1,linestyle="-.",alpha=0.5) 
+        plt.axvline(x = j, color = 'black',linewidth=1,linestyle="-.",alpha=0.5) 
     for idx,i in enumerate(gt.astype(int)):
     
         if idx in excl:
-            plt.axvline(x = i, color = 'green',linewidth=1) 
+            plt.axvline(x = i, color = 'red',linewidth=1) 
         else:
-            plt.axvline(x = i, color = 'green',linewidth=1,linestyle="-.",alpha=0.5) 
+            plt.axvline(x = i, color = 'red',linewidth=1,linestyle="-.",alpha=0.5) 
             
     
 
     for k in gt.astype(int):
-        plt.fill_betweenx(np.array([0, 200]), k-margin, k+margin, color='green', alpha=0.3)
+        pass
+        #plt.fill_betweenx(np.array([0, 1]), k-margin, k+margin, color='green', alpha=0.3)
     plt.xlabel(f'{nomeFile} {clasplist} {f1}')
 
     #plt.figure(figsize=(18,9))
