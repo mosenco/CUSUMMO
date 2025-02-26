@@ -11,6 +11,7 @@ from dtaidistance import dtw,similarity
 from scipy.stats import pearsonr
 from sklearn.model_selection import ParameterGrid
 import statistics
+from claspy.window_size import dominant_fourier_frequency, highest_autocorrelation, suss
 
 from claspy.segmentation import BinaryClaSPSegmentation
 
@@ -296,8 +297,57 @@ GROUNDTRUTH=[
          ]
 
 
+def f1scoremargin(gtl,pdl,indexes,margin):
+    tp=0
+    fp=0
+    fn=0
+    for idx in indexes:
+        groundtruth = np.array(gtl[idx])
+        predictions = np.array(pdl[idx])
 
-def f1scoremargin(ground_truth, predictions, tolerance):
+        # used in PlotResult to distinguish TP to FP
+        corrected_pred = []
+        false_pred = []
+
+        matched_groundtruth = np.array(len(groundtruth), dtype=bool)
+        matched_predictions = np.array(len(predictions), dtype=bool)
+
+        closer = predictions[0]
+        c_idx = 0 #closer index
+
+        for i,gt_point in enumerate(groundtruth):
+            for j in range(c_idx,len(predictions)):
+                pred_point = predictions[j]
+
+                if pred_point > gt_point and abs(gt_point - pred_point) > margin:
+                    break
+                
+                if abs(gt_point - pred_point) < abs(gt_point - closer):
+                    closer = pred_point
+                    c_idx = j
+            
+            if not matched_predictions[c_idx] and abs(gt_point - closer ) <= margin:
+                tp += 1
+                matched_groundtruth[i] = True
+                matched_predictions[c_idx] = True
+                corrected_pred.append(closer)
+
+        for i, pred in enumerate(predictions):
+            if not matched_predictions[i]:
+                false_pred.append(pred)
+
+        fp += np.sum(~matched_predictions)
+
+        fn += np.sum(~matched_groundtruth)
+
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0 
+    return precision, recall, f1, {"tp":tp, "fp":fp, "fn":fn}
+
+    
+    
+def f1scoremarginOne(ground_truth, predictions, tolerance):
     """
     Calcola l'F1 score con una finestra di tolleranza sui change points.
     
@@ -548,7 +598,7 @@ def PlotResult(df,gt,cp, nomeFile, margin,clasplist,ts):
     #clasp.plot(gt_cps=gt.astype(int), heading="Segmentation of different umpire cricket signals", ts_name="ACC", file_path="segmentation_example.png")
     print("asd")
     # from f1scoremargin i extract the score,TP and FP
-    precision,recall,f1,score,TP,FP=f1scoremargin(gt.astype(int),np.array(cp).astype(int),margin)
+    precision,recall,f1,score,TP,FP=f1scoremarginOne(gt.astype(int),np.array(cp).astype(int),margin)
     
     if nomeFile == "rplm":
         excl=[0,1,2,3,5,6,7,8,9,12,13,14,15,16]
