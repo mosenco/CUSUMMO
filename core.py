@@ -309,8 +309,8 @@ def f1scoremargin(gtl,pdl,indexes,margin):
         corrected_pred = []
         false_pred = []
 
-        matched_groundtruth = np.array(len(groundtruth), dtype=bool)
-        matched_predictions = np.array(len(predictions), dtype=bool)
+        matched_groundtruth = np.zeros(len(groundtruth), dtype=bool)
+        matched_predictions = np.zeros(len(predictions), dtype=bool)
 
         closer = predictions[0]
         c_idx = 0 #closer index
