@@ -147,7 +147,7 @@ Extracted features. Use the index of this list to use with iloc[]
 
 """
 # list of features. To access its name or its value while using iloc
-features_name=[
+FEATURES_NAME=[
     "kinetic_global",
     "kinetic_chest",
     "directness_head",
@@ -461,33 +461,20 @@ def LoadingGroundTruth(df,gtraw):
     return stretch_gt[:-1]
 
 
-def GetClasp2(df,gt,known,feature, **kwargs):
+def GetClasp2(df,feature, p_idx, v_idx,**kwargs):
     
     result=np.array([])
     eachresult = []
     eachclasp=[]
     for i in feature:
-    
+        print(f'computing: {p_idx} / {v_idx} / {i}')
         ts=df.iloc[:,i]
-        
-        #print(ts.head())
-        if known == 1:
-            #print("knwon!")
-            clasp = BinaryClaSPSegmentation(n_segments=len(gt), validation=None)
-        else:
-            #print("unknown!")
-            clasp = BinaryClaSPSegmentation(**kwargs)
+
+        clasp = BinaryClaSPSegmentation(**kwargs)
             
         found_cps = clasp.fit_predict(ts.values)    
 
-        # c'è un bug con binseg dove un cp è oltre la lunghezza del ts
-        # faccio un loop e se eccede cambio il valore con la len(tf)-1
-        # WTF IS THIS
-        """
-        for i in range(0,len(found_cps)):
-            if found_cps[i] >= len(ts):
-                found_cps[i] = len(ts)-1
-        """
+      
         # per ogni array di cp di ogni singola feature
         # li unisco in un unico array. in pratica faccio un OR di tutti i cp
         result = np.sort(np.append(result,found_cps).flatten())
