@@ -603,22 +603,22 @@ def PlotResult(df,gt,cp, nomeFile, margin,clasplist,ts):
     plt.plot(np.arange(len(df.iloc[:,ts].values)),df.iloc[:,ts].values,'black',linewidth=0.5)
     #for j in cp.tolist():
     for j in FP:
-        plt.axvline(x = j, color = 'black',linewidth=1,linestyle="-.",alpha=0.5)
+        plt.axvline(x = j, color = 'green',linewidth=1,linestyle="-.",alpha=0.5)
     for j in TP:
         
-        plt.axvline(x = j, color = 'black',linewidth=1,linestyle="-.",alpha=0.5) 
+        plt.axvline(x = j, color = 'green',linewidth=1,linestyle="-.",alpha=0.5) 
     for idx,i in enumerate(gt.astype(int)):
     
         if idx in excl:
             plt.axvline(x = i, color = 'red',linewidth=1) 
         else:
-            plt.axvline(x = i, color = 'red',linewidth=1,linestyle="-.",alpha=0.5) 
+            plt.axvline(x = i, color = 'red',linewidth=1,linestyle="-.",alpha=1) 
             
     
 
     for k in gt.astype(int):
         pass
-        #plt.fill_betweenx(np.array([0, 1]), k-margin, k+margin, color='green', alpha=0.3)
+        #plt.fill_betweenx(np.array([min(df.iloc[:,ts].values), max(df.iloc[:,ts].values)]), k-margin, k+margin, color='green', alpha=0.1)
     plt.xlabel(f'{nomeFile} {clasplist} {f1}')
 
     #plt.figure(figsize=(18,9))
